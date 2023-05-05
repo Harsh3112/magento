@@ -1,0 +1,322 @@
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : error parsing attribute name  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():             &lt;active&gt;true&lt;/active&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():             ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : attributes construct error  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():             &lt;active&gt;true&lt;/active&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():             ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Couldn't find end of Start Tag Ccc_Vendo line 30  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():             &lt;active&gt;true&lt;/active&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():             ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 36: parser error : Opening and ending tag mismatch: modules line 29 and Ccc_Vendor  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/Ccc_Vendor&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():                      ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: config line 28 and modules  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/modules&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string():               ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 38: parser error : Extra content at the end of the document  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:48+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : error parsing attribute name  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():             &lt;active&gt;true&lt;/active&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():             ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : attributes construct error  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():             &lt;active&gt;true&lt;/active&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():             ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Couldn't find end of Start Tag Ccc_Vendo line 30  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():             &lt;active&gt;true&lt;/active&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():             ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 36: parser error : Opening and ending tag mismatch: modules line 29 and Ccc_Vendor  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/Ccc_Vendor&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():                      ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: config line 28 and modules  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/modules&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string():               ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 38: parser error : Extra content at the end of the document  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:25:52+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T10:59:40+00:00 DEBUG (7): HEADERS ALREADY SENT: \<pre>[0] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\2023\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php:381
+[5] C:\xampp\htdocs\2023\magento\app\Mage.php:686
+[6] C:\xampp\htdocs\2023\magento\index.php:83
+\</pre>
+2023-05-03T11:10:26+00:00 DEBUG (7): HEADERS ALREADY SENT: \<pre>[0] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\2023\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php:381
+[5] C:\xampp\htdocs\2023\magento\app\Mage.php:686
+[6] C:\xampp\htdocs\2023\magento\index.php:83
+\</pre>
+2023-05-03T11:13:12+00:00 DEBUG (7): HEADERS ALREADY SENT: \<pre>[0] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\2023\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php:381
+[5] C:\xampp\htdocs\2023\magento\app\Mage.php:686
+[6] C:\xampp\htdocs\2023\magento\index.php:83
+\</pre>
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 25: parser error : Opening and ending tag mismatch: Vendor line 24 and models  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():     	&lt;/models&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():     	         ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Opening and ending tag mismatch: vendor line 27 and blocks  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():     	&lt;/blocks&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():     	         ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 32: parser error : Opening and ending tag mismatch: blocks line 26 and global  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 33: parser error : Opening and ending tag mismatch: Vendor line 22 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 34: parser error : Premature end of data in tag models line 21  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 34: parser error : Premature end of data in tag global line 20  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 34: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:20:45+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Opening and ending tag mismatch: vendor line 27 and blocks  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string():     	&lt;/blocks&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string():     	         ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 35: parser error : Opening and ending tag mismatch: blocks line 26 and global  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 36: parser error : Opening and ending tag mismatch: global line 20 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:24:13+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Opening and ending tag mismatch: vendor line 27 and blocks  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string():     	&lt;/blocks&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string():     	         ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: blocks line 26 and global  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 38: parser error : Opening and ending tag mismatch: global line 20 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 39: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-03T11:26:55+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:46:57+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:47:11+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:48+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:56+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:48:59+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:03+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:15+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:49:16+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:52:40+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 42: parser error : Opening and ending tag mismatch: vendor line 34 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Opening and ending tag mismatch: children line 33 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 44: parser error : Opening and ending tag mismatch: admin line 32 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: resources line 28 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Opening and ending tag mismatch: acl line 27 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:53:31+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 33: parser error : Opening and ending tag mismatch: vendor line 25 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 34: parser error : Opening and ending tag mismatch: children line 24 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 35: parser error : Opening and ending tag mismatch: admin line 23 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 36: parser error : Opening and ending tag mismatch: resources line 19 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: acl line 18 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 38: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:00+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 33: parser error : Opening and ending tag mismatch: vendor line 25 and children  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;/children&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 34: parser error : Opening and ending tag mismatch: children line 24 and admin  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/admin&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 35: parser error : Opening and ending tag mismatch: admin line 23 and resources  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/resources&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 36: parser error : Opening and ending tag mismatch: resources line 19 and acl  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/acl&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():           ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: acl line 18 and config  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 38: parser error : Premature end of data in tag config line 3  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T08:54:15+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-04T09:31:23+00:00 ERR (3): Recoverable Error: Object of class Ccc_Vendor_Adminhtml_VendorController could not be converted to string  in C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php on line 15
