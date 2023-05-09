@@ -1,0 +1,81 @@
+<config>
+    <modules>
+        <Ccc_Product>    
+            <version>1.0.0</version>
+        </Ccc_Product>
+    </modules>
+    <frontend>
+        <!-- <routers>
+            <Vendor>
+                <use>standard</use>
+                <args>
+                    <module>Ccc_Vendor</module>
+                    <frontName>vendor</frontName>
+                </args>
+            </Vendor>
+        </routers> -->
+
+        <layout>
+            <updates>
+                <Product module="Ccc_Product">
+                    <file>Ccc_Product.xml</file>
+                </Product>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+
+        <models>
+            <product>
+                <class>Ccc_Product_Model</class>
+                <resourceModel>product_resource</resourceModel>
+            </product>
+            <product_resource>
+                <class>Ccc_Product_Model_Resource</class>
+                <deprecatedNode>product_mysql4</deprecatedNode>
+                <entities>
+                    <product>
+                        <table>product</table>
+                    </product>
+                </entities>
+            </product_resource>
+        </models>
+        <blocks>
+            <product>
+                <class>Ccc_Product_Block</class>
+            </product>
+        </blocks>
+        <helpers>
+           <product>
+                  <class>Ccc_product_Helper</class>
+            </product>
+        </helpers>
+    </global>
+    <admin>
+        <!-- <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Ccc_Vendor>Ccc_Vendor_Adminhtml</Ccc_Vendor>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers> -->
+        <routers>
+            <Product>
+                <use>admin</use>
+                <args>
+                    <module>Ccc_Product</module>
+                    <frontName>product</frontName>
+                </args>
+            </Product>
+        </routers>
+         <layout>
+            <updates>
+                <product>
+                    <file>product.xml</file>
+                </product>
+            </updates>
+        </layout>
+    </admin>
+</config>
