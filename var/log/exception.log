@@ -1,281 +1,219 @@
-2023-05-03T09:28:29+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Test_Block_Test in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+2023-05-05T09:37:04+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Test_Block...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('test/test', 'test')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('test/test', 'test')
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
-#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
-#8 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Test\controllers\IndexController.php(8): Mage_Core_Controller_Varien_Action->loadLayout()
-#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Test_IndexController->indexAction()
-#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#11 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#12 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#13 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#14 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#15 {main}
-2023-05-03T09:29:09+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Test_Block_Test in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:37:13+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Test_Block...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('test/test', 'test')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('test/test', 'test')
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
-#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
-#8 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Test\controllers\IndexController.php(8): Mage_Core_Controller_Varien_Action->loadLayout()
-#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Test_IndexController->indexAction()
-#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#11 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#12 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#13 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#14 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#15 {main}
-2023-05-03T09:30:51+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Test_Block_Test in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:39:12+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Test_Block...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('test/test', 'test')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('test/test', 'test')
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
-#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
-#8 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Test\controllers\IndexController.php(8): Mage_Core_Controller_Varien_Action->loadLayout()
-#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Test_IndexController->indexAction()
-#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#11 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#12 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#13 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#14 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#15 {main}
-2023-05-03T09:32:09+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Test_Block_Test in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:39:21+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Test_Block...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('test/test', 'test')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('test/test', 'test')
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
-#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
-#8 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Test\controllers\IndexController.php(8): Mage_Core_Controller_Varien_Action->loadLayout()
-#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Test_IndexController->indexAction()
-#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#11 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#12 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#13 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#14 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#15 {main}
-2023-05-03T09:32:30+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Test_Block_Test in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:39:43+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Test_Block...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('test/test', 'test')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('test/test', 'test')
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
-#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
-#8 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Test\controllers\IndexController.php(8): Mage_Core_Controller_Varien_Action->loadLayout()
-#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Test_IndexController->indexAction()
-#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#11 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#12 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#13 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#14 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#15 {main}
-2023-05-03T09:36:49+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Test_Block_Test in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:44:33+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Test_Block...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('test/test', 'test')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('test/test', 'test')
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
-#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
-#8 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Test\controllers\IndexController.php(8): Mage_Core_Controller_Varien_Action->loadLayout()
-#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Test_IndexController->indexAction()
-#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#11 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#12 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#13 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#14 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#15 {main}
-2023-05-03T11:07:53+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:44:53+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Vend...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T11:12:58+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:45:45+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Vendor_Blo...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Vendor/Test_Ven...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T11:30:25+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:48:17+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T11:30:40+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:48:31+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T11:31:05+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:49:41+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T11:31:06+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:50:01+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T11:31:40+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T09:58:01+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Adminhtml_Block_Adminhtml_Vendor_Edit_Form in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T12:08:28+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Adminhtml_...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Adminhtml\Block\Widget\Form\Container.php(92): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Block\Abstract.php(297): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(89): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...', 'vendor')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-05T10:32:40+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Vendor_Block_Adminhtml_Vendor_Edit_Tabs in C:\xampp\htdocs\2023\magento\app\Mage.php:598
 Stack trace:
 #0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T12:10:47+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
-Stack trace:
-#0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T12:10:59+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
-Stack trace:
-#0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T12:11:02+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
-Stack trace:
-#0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T12:11:11+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
-Stack trace:
-#0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#8 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#9 {main}
-2023-05-03T12:21:36+00:00 ERR (3): 
-Mage_Core_Exception: Invalid block type: Mage_Ccc_Vendor_Block_Test_Vendor in C:\xampp\htdocs\2023\magento\app\Mage.php:598
-Stack trace:
-#0 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
-#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Ccc_Vendor...', Array)
-#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\IndexController.php(13): Mage_Core_Model_Layout->createBlock('Ccc_Vendor/Test...')
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_IndexController->indexAction()
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Vendor_Bloc...', Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Vendor\controllers\Adminhtml\VendorController.php(115): Mage_Core_Model_Layout->createBlock('vendor/adminhtm...')
+#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ccc_Vendor_Adminhtml_VendorController->editAction()
+#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
 #5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
 #6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
 #7 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)

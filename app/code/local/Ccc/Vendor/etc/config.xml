@@ -37,6 +37,9 @@
                     <vendor>
                         <table>vendor</table>
                     </vendor>
+                    <address>
+                        <table>vendor_address</table>
+                    </address>
                 </entities>
             </vendor_resource>
         </models>
@@ -49,6 +52,9 @@
            <vendor>
                   <class>Ccc_vendor_Helper</class>
             </vendor>
+            <address>
+                  <class>Ccc_vendor_Helper_Address</class>
+            </address>
         </helpers>
     </global>
     <admin>
