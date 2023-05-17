@@ -1,3 +1,0 @@
-2023-05-08T06:46:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 27: parser error : Opening and ending tag mismatch: managecategory line 23 and managevender  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-05-08T06:46:14+00:00 ERR (3): Warning: simplexml_load_string():                             &lt;/managevender&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-05-08T06:46:14+00:00 ERR (3): Warning: simplexml_load_string():                                            ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
