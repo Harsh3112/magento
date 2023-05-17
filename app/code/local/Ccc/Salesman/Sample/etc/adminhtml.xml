@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <sample translate="title" module="sample">
+            <title>Sample</title>
+            <sort_order>10</sort_order>
+            <children>
+                <sample translate="title" module="sample">
+                    <title>Manage Samples</title>
+                    <action>sample/adminhtml_sample/index</action>
+                    <sort_order>0</sort_order>
+                </sample>
+                <sample_eav translate="title" module="sample">
+                    <title>Manage Attribute</title>
+                    <action>sample/adminhtml_eav/index</action>
+                    <sort_order>10</sort_order>
+                </sample_eav>
+            </children>
+        </sample>
+    </menu>
+</config>

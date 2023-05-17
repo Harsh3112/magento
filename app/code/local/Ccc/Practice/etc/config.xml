@@ -1,0 +1,25 @@
+<config>
+    <modules>
+        <Ccc_Practice>    
+            <version>1.0.0</version>
+        </Ccc_Practice>
+    </modules>
+    <frontend>
+        <routers>
+            <Practice>
+                <use>standard</use>
+                <args>
+                    <module>Ccc_Practice</module>
+                    <frontName>practice</frontName>
+                </args>
+            </Practice>
+        </routers>
+   </frontend>
+    <!-- <global>
+        <helpers>
+           <practice>
+                  <class>Ccc_Practice_Helper</class>
+            </practice>
+        </helpers>
+    </global> -->
+</config>
