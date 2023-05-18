@@ -120,7 +120,7 @@ class Ccc_Salesman_Block_Adminhtml_Salesman_Grid extends Mage_Adminhtml_Block_Wi
         return parent::_prepareColumns();
     }
 
-     protected function _prepareMassaction()
+    protected function _prepareMassaction()
     {
         $this->setMassactionIdField('salesman_id');
         $this->getMassactionBlock()->setFormFieldName('salesman');
