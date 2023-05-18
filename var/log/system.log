@@ -1,0 +1,8 @@
+2023-05-18T05:12:23+00:00 ERR (3): Notice: Undefined variable: salesman  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\controllers\Adminhtml\HarshController.php on line 127
+2023-05-18T10:44:15+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
+2023-05-18T10:44:40+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
+2023-05-18T11:04:09+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
+2023-05-18T11:04:56+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
+2023-05-18T11:18:44+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
+2023-05-18T11:22:56+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
+2023-05-18T11:26:57+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15

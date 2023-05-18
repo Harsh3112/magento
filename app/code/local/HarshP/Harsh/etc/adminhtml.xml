@@ -1,0 +1,61 @@
+<config>
+    <menu>
+        <harsh translate="title" module="harsh">
+            <title>harsh</title>
+            <sort_order>10</sort_order>
+            <children>
+                <manageharsh translate="title" module="harsh">
+                    <title>Manage harsh</title>
+                    <action>harsh/adminhtml_harsh/index</action>
+                    <sort_order>10</sort_order>
+                </manageharsh>
+                <manageattribute module="harsh">
+                    <title>Attributes</title>
+                    <sort_order>20</sort_order>
+                    <children>
+                        <attributes translate="title" module="harsh">
+                            <title>Manage Attributes</title>
+                            <action>harsh/adminhtml_attribute/</action>
+                        </attributes>
+                        <sets translate="title" module="harsh">
+                            <title>Manage Attribute Sets</title>
+                            <!-- <action>adminhtml/catalog_product_set/</action> -->
+                            <action>harsh/adminhtml_set/</action>
+                        </sets>
+                    </children>
+                </manageattribute>
+            </children>
+        </harsh>
+       </menu>
+       <acl>
+        <resources>
+            <admin>
+                <children>
+                    <harsh translate="title" module="harsh">
+                        <title>harshs</title>
+                        <sort_order>40</sort_order>
+                        <children>
+                             <manageharsh translate="title" module="harsh">
+                                <title>Manage harsh</title>
+                                <action>harsh/adminhtml_harsh/index</action>
+                                <sort_order>10</sort_order>
+                            </manageharsh>
+                        </children>
+                    </harsh>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <harsh translate="title" module="harsh">
+                                        <title>harshs Section</title>
+                                        <sort_order>50</sort_order>
+                                    </harsh>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
