@@ -27,11 +27,12 @@ class HarshP_Harsh_Block_Adminhtml_Harsh_Edit_Tab_Form extends Mage_Adminhtml_Bl
             'name' => 'harsh[age]',
         ));
 
-        if ( Mage::getSingleton('adminhtml/session')->getVendorData() )
+        if ( Mage::getSingleton('adminhtml/session')->getSampleData() )
         {
-            $form->setValues(Mage::getSingleton('adminhtml/session')->getVendorData());
+            $form->setValues(Mage::getSingleton('adminhtml/session')->getSampleData());
             Mage::getSingleton('adminhtml/session')->setVendorData(null);
-        } elseif ( Mage::registry('harsh_data') ) {
+        } 
+        elseif ( Mage::registry('harsh_data') ) {
             $form->setValues(Mage::registry('harsh_data')->getData());
         }
         return parent::_prepareForm();

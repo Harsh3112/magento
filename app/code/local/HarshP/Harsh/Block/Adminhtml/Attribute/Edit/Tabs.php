@@ -13,11 +13,6 @@ class HarshP_Harsh_Block_Adminhtml_Attribute_Edit_Tabs extends Mage_Adminhtml_Bl
 
     protected function _beforeToHtml()
     {
-        $this->addTab('form_section', array(
-            'label' => Mage::helper('salesman')->__('Salesman Information'),
-            'title' => Mage::helper('salesman')->__('Salesman Information'),
-            'content' => $this->getLayout()->createBlock('salesman/adminhtml_salesman_edit_tab_form')->toHtml(),
-        ));
         $this->addTab('main', array(
             'label'     => Mage::helper('harsh')->__('Properties'),
             'title'     => Mage::helper('harsh')->__('Properties'),
@@ -28,9 +23,9 @@ class HarshP_Harsh_Block_Adminhtml_Attribute_Edit_Tabs extends Mage_Adminhtml_Bl
         $model = Mage::registry('entity_attribute');
 
         $this->addTab('labels', array(
-            'label'     => Mage::helper('catalog')->__('Manage Label / Options'),
-            'title'     => Mage::helper('catalog')->__('Manage Label / Options'),
-            'content'   => $this->getLayout()->createBlock('adminhtml/catalog_product_attribute_edit_tab_options')->toHtml(),
+            'label'     => Mage::helper('harsh')->__('Manage Label / Options'),
+            'title'     => Mage::helper('harsh')->__('Manage Label / Options'),
+            'content'   => $this->getLayout()->createBlock('harsh/adminhtml_attribute_edit_tab_options')->toHtml(),
         ));
         
         /*if ('select' == $model->getFrontendInput()) {

@@ -17,13 +17,7 @@ class HarshP_Harsh_Block_Adminhtml_Harsh extends Mage_Adminhtml_Block_Widget_Gri
         }
 
     }
-
-    /**
-     * Check permission for passed action
-     *
-     * @param string $action
-     * @return bool
-     */
+    
     protected function _isAllowedAction($action)
     {
         return Mage::getSingleton('admin/session')->isAllowed('harsh/adminhtml_harsh/' . $action);

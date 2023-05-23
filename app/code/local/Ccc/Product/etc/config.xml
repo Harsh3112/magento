@@ -5,16 +5,6 @@
         </Ccc_Product>
     </modules>
     <frontend>
-        <!-- <routers>
-            <Vendor>
-                <use>standard</use>
-                <args>
-                    <module>Ccc_Vendor</module>
-                    <frontName>vendor</frontName>
-                </args>
-            </Vendor>
-        </routers> -->
-
         <layout>
             <updates>
                 <Product module="Ccc_Product">
@@ -44,23 +34,35 @@
             <product>
                 <class>Ccc_Product_Block</class>
             </product>
+            <product>
+                <rewrite>
+                    <adminhtml_product>Ccc_Product_Block_Adminhtml_New</adminhtml_product>
+                </rewrite>
+            </product>
         </blocks>
         <helpers>
-           <product>
-                  <class>Ccc_product_Helper</class>
+            <product>
+                <class>Ccc_product_Helper</class>
+            </product>
+            <product>
+                <rewrite>
+                    <data>Ccc_Product_Helper_Product_Data</data>
+                </rewrite>
             </product>
         </helpers>
+        <events>
+            <cms_page_prepare_save>
+                <observers>
+                    <Ccc_Product_Model_Observer>
+                        <type>singleton</type>
+                        <class>ccc_product/observer</class>
+                        <method>customObserver</method>
+                    </Ccc_Product_Model_Observer>
+                </observers>
+            </cms_page_prepare_save>
+        </events>
     </global>
     <admin>
-        <!-- <routers>
-            <adminhtml>
-                <args>
-                    <modules>
-                        <Ccc_Vendor>Ccc_Vendor_Adminhtml</Ccc_Vendor>
-                    </modules>
-                </args>
-            </adminhtml>
-        </routers> -->
         <routers>
             <Product>
                 <use>admin</use>

@@ -61,6 +61,8 @@ class Ccc_Product_Adminhtml_ProductController extends Mage_Adminhtml_Controller_
         try {
             $model = Mage::getModel('product/product');
             $data = $this->getRequest()->getPost();
+            // echo "<pre>";
+            // print_r($data);die;
             if (!$this->getRequest()->getParam('id'))
             {
                 $model->setData($data)->setId($this->getRequest()->getParam('product_id'));
