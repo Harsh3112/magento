@@ -1,0 +1,6 @@
+<?php
+
+class Ccc_Meet_Block_Adminhtml_Meet_Attribute_Edit_Tab_Options extends Mage_Eav_Block_Adminhtml_Attribute_Edit_Options_Abstract
+{
+	
+}

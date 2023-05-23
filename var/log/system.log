@@ -1,8 +1,8 @@
-2023-05-18T05:12:23+00:00 ERR (3): Notice: Undefined variable: salesman  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\controllers\Adminhtml\HarshController.php on line 127
-2023-05-18T10:44:15+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
-2023-05-18T10:44:40+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
-2023-05-18T11:04:09+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
-2023-05-18T11:04:56+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
-2023-05-18T11:18:44+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
-2023-05-18T11:22:56+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
-2023-05-18T11:26:57+00:00 ERR (3): Notice: Undefined variable: yesno  in C:\xampp\htdocs\2023\magento\app\code\local\HarshP\Harsh\Block\Adminhtml\Attribute\Edit\Form.php on line 15
+2023-05-22T05:32:01+00:00 CRIT (2): Not valid template file:adminhtml\base\default\template\harsh/attribute/js.phtml
+2023-05-22T05:35:59+00:00 CRIT (2): Not valid template file:adminhtml\base\default\template\harsh/attribute/js.phtml
+2023-05-22T05:36:23+00:00 CRIT (2): Not valid template file:adminhtml\base\default\template\harsh/attribute/js.phtml
+2023-05-22T07:11:30+00:00 ERR (3): Warning: htmlspecialchars() expects parameter 1 to be string, array given  in C:\xampp\htdocs\2023\magento\lib\Varien\Data\Form\Element\Abstract.php on line 151
+2023-05-22T10:55:04+00:00 CRIT (2): Not valid template file:adminhtml\base\default\template\meet/attribute/set/toolbar/main.phtml
+2023-05-22T10:55:07+00:00 CRIT (2): Not valid template file:adminhtml\base\default\template\meet/attribute/set/main.phtml
+2023-05-22T11:29:57+00:00 CRIT (2): Not valid template file:adminhtml\base\default\template\meet/attribute/set/toolbar/main.phtml
+2023-05-22T11:30:06+00:00 CRIT (2): Not valid template file:adminhtml\base\default\template\meet/attribute/set/main.phtml

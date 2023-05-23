@@ -66,6 +66,8 @@ class Ccc_Salesman_Adminhtml_SalesmanController extends Mage_Adminhtml_Controlle
             $data = $this->getRequest()->getPost('salesman');
             $addressData = $this->getRequest()->getPost('address');
 
+            echo "<pre>";
+            print_r($data);die;
             $salesmanId = $this->getRequest()->getParam('id');
             if (!$salesmanId)
             {

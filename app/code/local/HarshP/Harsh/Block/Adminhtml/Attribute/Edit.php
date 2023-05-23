@@ -58,13 +58,13 @@ class HarshP_Harsh_Block_Adminhtml_Attribute_Edit extends Mage_Adminhtml_Block_W
         // }
     }
 
-    // public function getValidationUrl()
-    // {
-    //     return $this->getUrl('*/*/validate', array('_current'=>true));
-    // }
+    public function getValidationUrl()
+    {
+        return $this->getUrl('*/*/validate', array('_current'=>true));
+    }
 
-    // public function getSaveUrl()
-    // {
-    //     return $this->getUrl('*/'.$this->_controller.'/save', array('_current'=>true, 'back'=>null));
-    // }
+    public function getSaveUrl()
+    {
+        return $this->getUrl('*/'.$this->_controller.'/save', array('_current'=>true, 'back'=>null));
+    }
 }

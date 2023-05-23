@@ -31,10 +31,13 @@ class Ccc_Product_Block_Adminhtml_Product_Edit_Tab_Form extends Mage_Adminhtml_B
             'required' => true,
             'name' => 'price',
         ));
-        $fieldset->addField('status', 'text', array(
+        $fieldset->addField('status', 'select', array(
             'label' => Mage::helper('product')->__('Status'),
             'required' => true,
-            'name' => 'status',
+            'options' => array(
+                    1 => Mage::helper('product')->__('Active'), 
+                    2 => Mage::helper('product')->__('Inactive')
+                ),
         ));
 
         if ( Mage::getSingleton('adminhtml/session')->getVendorData() )
