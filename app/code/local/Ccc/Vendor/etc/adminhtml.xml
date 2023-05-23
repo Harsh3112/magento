@@ -1,4 +1,4 @@
-<config>
+<!-- <config>
     <menu>
         <vendor translate="title" module="vendor">
             <title>vendor</title>
@@ -43,4 +43,4 @@
             </admin>
         </resources>
     </acl>
-</config>
+</config> -->
