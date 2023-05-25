@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
 	<modules>
-		<Ccc_Meet>
+		<Ccc_HarshEav>
 			<active>true</active>
 			<codePool>local</codePool>
-		</Ccc_Meet>
+		</Ccc_HarshEav>
 	</modules>
 </config>
