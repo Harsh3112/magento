@@ -58,15 +58,6 @@
         </helpers>
     </global>
     <admin>
-        <!-- <routers>
-            <adminhtml>
-                <args>
-                    <modules>
-                        <Ccc_Vendor>Ccc_Vendor_Adminhtml</Ccc_Vendor>
-                    </modules>
-                </args>
-            </adminhtml>
-        </routers> -->
         <routers>
             <Vendor>
                 <use>admin</use>

@@ -1,10 +1,11 @@
 <?php
+// require_once 'C:\xampp\htdocs\2023\magento\app\code\local\Ccc\Salesman\controllers\Adminhtml\SalesmanController.php';
 
 class Ccc_Product_Adminhtml_ProductController extends Mage_Adminhtml_Controller_Action
+// class Ccc_Product_Adminhtml_ProductController extends Ccc_Salesman_Adminhtml_SalesmanController
 {
     public function indexAction()
     {
-        
         $this->_title($this->__('Products'))->_title($this->__('Manage Products'));
         $this->loadLayout();
         $this->_addContent(
@@ -76,6 +77,9 @@ class Ccc_Product_Adminhtml_ProductController extends Mage_Adminhtml_Controller_
             else {
                 $model->setUpdateTime(now());
             }
+
+            // observer testing...
+            Mage::dispatchEvent('cms_page_prepare_save', array('page' => $model, 'request' => $this->getRequest()));
              
             $model->save();
             Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('product')->__('Product was successfully saved'));

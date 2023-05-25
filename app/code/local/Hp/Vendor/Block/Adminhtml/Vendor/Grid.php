@@ -64,6 +64,18 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Grid extends Mage_Adminhtml_Block_Widget_
             'renderer' => 'Hp_Vendor_Block_Adminhtml_Vendor_Grid_Renderer_Status',
         ));
 
+        $this->addColumn('created_time', array(
+            'header'    => Mage::helper('vendor')->__('Created At'),
+            'align'     => 'left',
+            'index'     => 'created_time',
+        ));
+
+        $this->addColumn('update_time', array(
+            'header'    => Mage::helper('vendor')->__('Update Time'),
+            'align'     => 'left',
+            'index'     => 'update_time',
+        ));
+
         return parent::_prepareColumns();
     }
 

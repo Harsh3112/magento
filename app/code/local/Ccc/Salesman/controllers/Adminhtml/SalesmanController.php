@@ -4,7 +4,6 @@ class Ccc_Salesman_Adminhtml_SalesmanController extends Mage_Adminhtml_Controlle
 {
     public function indexAction()
     {
-        
         $this->_title($this->__('salesmen'))->_title($this->__('Manage salesmen'));
         $this->loadLayout();
         $this->_addContent(
