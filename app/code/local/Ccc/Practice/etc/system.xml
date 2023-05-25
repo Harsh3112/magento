@@ -2,9 +2,9 @@
 
 <config>
     <tabs>
-        <general>
+        <catalog>
             <sort_order>10</sort_order>
-        </general>
+        </catalog>
     </tabs>
     <sections>
         <general>

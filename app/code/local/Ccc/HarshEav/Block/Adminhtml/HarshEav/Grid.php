@@ -18,7 +18,16 @@ class Ccc_HarshEav_Block_Adminhtml_HarshEav_Grid extends Mage_Adminhtml_Block_Wi
             ->addAttributeToSelect('lastname')
             ->addAttributeToSelect('email')
             ->addAttributeToSelect('phoneNo')
+            ->addAttributeToSelect('gender')
+            ->addAttributeToSelect('new')
             ->addAttributeToSelect('price_attribute');
+
+        // $attributeCodes = Mage::getResourceModel('harsheav/harsheav_attribute_collection')->getItems();
+        // echo "<pre>";
+        // print_r($attributeCodes);die;
+        // foreach ($attributeCodes as $attributeCode) {
+            // $collection->addAttributeToSelect($attributeCode->attribute_code);
+        // }
 
         $adminStore = Mage_Core_Model_App::ADMIN_STORE_ID;
        
@@ -63,6 +72,21 @@ class Ccc_HarshEav_Block_Adminhtml_HarshEav_Grid extends Mage_Adminhtml_Block_Wi
                 'header' => Mage::helper('harsheav')->__('Email'),
                 'width'  => '50px',
                 'index'  => 'email',
+            ));
+
+        $this->addColumn('gender',
+            array(
+                'header' => Mage::helper('harsheav')->__('Gender'),
+                'width'  => '50px',
+                'index'  => 'gender',
+                'renderer' => 'Ccc_HarshEav_Block_Adminhtml_HarshEav_Grid_Renderer_Gender'
+            ));
+
+        $this->addColumn('new',
+            array(
+                'header' => Mage::helper('harsheav')->__('New'),
+                'width'  => '50px',
+                'index'  => 'new',
             ));
         
         parent::_prepareColumns();
