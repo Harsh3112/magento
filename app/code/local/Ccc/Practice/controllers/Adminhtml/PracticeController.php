@@ -19,6 +19,6 @@ class Ccc_Practice_Adminhtml_PracticeController extends Mage_Adminhtml_Controlle
         // print_r($mage->getModuleDir('','product'));
         // print_r(get_class_methods($mage));
         // $path = 'core';
-        // print_r($mage->getStoreConfig());
+        // prsint_r($mage->getStoreConfig());
     }
 }

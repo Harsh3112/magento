@@ -6,8 +6,8 @@ class Ccc_HarshEav_Block_Adminhtml_HarshEav_Attribute extends Mage_Adminhtml_Blo
 	{
 		$this->_blockGroup = 'harsheav';
 		$this->_controller = 'adminhtml_harsheav_attribute';
-		$this->_headerText = Mage::helper('vendor')->__('Manage Attributes');
-        $this->_addButtonLabel = Mage::helper('vendor')->__('Add New Attribute');
+		$this->_headerText = Mage::helper('brand')->__('Manage Attributes');
+        $this->_addButtonLabel = Mage::helper('brand')->__('Add New Attribute');
 		parent::__construct();
 	}
 }

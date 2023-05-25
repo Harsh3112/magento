@@ -72,13 +72,13 @@
                     <frontName>practice</frontName>
                 </args>
             </Practice>
-            <adminhtml>
+            <!-- <adminhtml>
                 <args>
                     <modules>
                         <ccc_practice before="Mage_Adminhtml_Catalog">Ccc_Practice_Adminhtml</ccc_practice>
                     </modules>
                 </args>
-            </adminhtml>
+            </adminhtml> -->
         </routers>
     </admin>
 </config>

@@ -58,7 +58,7 @@
         </helpers>
     </global>
     <admin>
-        <routers>
+        <routers>   
             <Vendor>
                 <use>admin</use>
                 <args>
