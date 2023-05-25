@@ -55,7 +55,7 @@
                 <observers>
                     <Ccc_Product_Model_Observer>
                         <type>singleton</type>
-                        <class>ccc_product/observer</class>
+                        <class>product/observer</class>
                         <method>customObserver</method>
                     </Ccc_Product_Model_Observer>
                 </observers>
@@ -67,7 +67,10 @@
             <Product>
                 <use>admin</use>
                 <args>
-                    <module>Ccc_Product</module>
+                    <modules>
+                        <Ccc_Product before="Ccc_Product">Ccc_Salesman</Ccc_Product>
+                    </modules>
+                    <!-- <module>Ccc_Product</module> -->
                     <frontName>product</frontName>
                 </args>
             </Product>

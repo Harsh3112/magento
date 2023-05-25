@@ -15,11 +15,70 @@
             </Practice>
         </routers>
    </frontend>
-    <!-- <global>
+    <global>
+        <models>
+            <practice>
+                <class>Ccc_Practice_Model</class>
+                <resourceModel>practice_resource</resourceModel>
+            </practice>
+            <practice_resource>
+                <class>Ccc_Practice_Model_Resource</class>
+                <deprecatedNode>practice_mysql4</deprecatedNode>
+                <entities>
+                    <practice>
+                        <table>practice</table>
+                    </practice>
+                </entities>
+            </practice_resource>
+            <catalog>
+                <rewrite>
+                    <product>Ccc_Practice_Model_Product</product>
+                </rewrite>
+            </catalog>
+        </models>
+        <blocks>
+            <practice>
+                <class>Ccc_Practice_Block</class>
+            </practice>
+            <!-- <adminhtml>
+                <rewrite>
+                    <catalog_product_grid>Ccc_Practice_Block_Adminhtml_Catalog_Product_Grid</catalog_product_grid>
+                </rewrite>
+            </adminhtml> -->
+        </blocks>
         <helpers>
            <practice>
                   <class>Ccc_Practice_Helper</class>
             </practice>
         </helpers>
-    </global> -->
+        <events>
+            <cms_page_prepare_save>
+                <observers>
+                    <Ccc_Practice_Model_Observer>
+                        <type>singleton</type>
+                        <class>practice/observer</class>
+                        <method>customObserver</method>
+                    </Ccc_Practice_Model_Observer>
+                </observers>
+            </cms_page_prepare_save>
+        </events>
+    </global>
+    <admin>
+        <routers>
+            <Practice>
+                <use>admin</use>
+                <args>
+                    <module>Ccc_Practice</module>
+                    <frontName>practice</frontName>
+                </args>
+            </Practice>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <ccc_practice before="Mage_Adminhtml_Catalog">Ccc_Practice_Adminhtml</ccc_practice>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
 </config>

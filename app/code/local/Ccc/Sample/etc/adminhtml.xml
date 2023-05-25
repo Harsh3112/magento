@@ -1,7 +1,7 @@
 <config>
     <menu>
         <sample translate="title" module="sample">
-            <title>sample</title>
+            <title>Sample</title>
             <sort_order>10</sort_order>
             <children>
                 <managesample translate="title" module="sample">
