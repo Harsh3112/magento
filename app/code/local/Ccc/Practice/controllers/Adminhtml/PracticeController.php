@@ -17,8 +17,11 @@ class Ccc_Practice_Adminhtml_PracticeController extends Mage_Adminhtml_Controlle
         // print_r($mage->objects());
         // print_r($mage->getBaseDir());
         // print_r($mage->getModuleDir('','product'));
-        // print_r(get_class_methods($mage));
-        // $path = 'core';
-        // prsint_r($mage->getStoreConfig());
+        // print_r($mage->getStoreConfig('catalog'));
+        // var_dump($mage->getStoreConfigFlag('catalog/frontend/list_mode'));
+        // print_r($mage->getBaseUrl());
+        // print_r($mage->getUrl('category/index/new',['c'=>23]));
+        print_r(get_class_methods($mage));
+        // print_r($mage->getDesign());
     }
 }
