@@ -4,7 +4,7 @@ class Hp_Brand_Model_Source_Model extends Mage_Eav_Model_Entity_Attribute_Source
     public function getAllOptions()
     {
         $brand = Mage::getModel('brand/brand')->getCollection()->getItems();
-        $arr = array();
+        // $arr = array();
         foreach ($brand as $brand_id=>$brand) {
             $options[] = array('value'=>$brand_id, 'label'=>$brand->name);
         }
