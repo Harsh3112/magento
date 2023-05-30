@@ -6,4 +6,29 @@ class Hp_ProductIdx_Model_ProductIdx extends Mage_Core_Model_Abstract
     {
         $this->_init('productidx/productidx');
     }
+
+    public function updateBrandTable($data)
+    {
+        $brandCollection = Mage::getModel('brand/brand')->getCollection();
+        $brandNames = $brandCollection->getConnection()
+            ->fetchPairs($brandCollection->getSelect()->columns(['brand_id','name']));
+
+        $newBrands = array_diff($idxBrandNames, $brandNames);
+
+        $data = null;
+        foreach ($newBrands as $name) {
+            $data[] = ['name'=>$name,'created_time'=>now()];
+        }
+
+        if($data){
+            $resource = Mage::getSingleton('core/resource');
+            $tableName = $resource->getTableName('brand');
+            $writeConnection = $resource->getConnection('core_write');
+            $writeConnection->insertMultiple($tableName, $data);
+        }
+
+        $newBrandNames = $brandCollection->getConnection()
+            ->fetchPairs($brandCollection->getSelect()->columns(['brand_id','name']));
+        return $newBrandNames;    
+    }
 }

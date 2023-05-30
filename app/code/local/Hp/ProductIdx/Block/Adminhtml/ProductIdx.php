@@ -15,9 +15,10 @@ class Hp_ProductIdx_Block_Adminhtml_ProductIdx extends Mage_Adminhtml_Block_Widg
             $this->_updateButton('add', 'label', Mage::helper('productidx')->__('Add New ProductIdx'));
 
             $this->_addButton('brand', array(
-                'label'     => 'Brand',
-                'onclick'   => 'setLocation("")'
+                'label'   => 'Brand',
+                'onclick' => 'setLocation(\'' . $this->getUrl('*/*/brand') . '\')',
             ));
+
             $this->_addButton('collection', array(
                 'label'     => 'Collection',
                 'onclick'   => 'setLocation("")'

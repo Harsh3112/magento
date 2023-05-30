@@ -127,4 +127,78 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
         }
         $this->_redirect('*/*/');
     }
+
+    public function brandAction()
+    {
+        try {
+            $productidx = Mage::getModel('productidx/productidx');       
+            $productidxCollection = $productidx->getCollection();
+            $productidxCollectionArray = $productidx->getCollection()->getData();
+            $productidxBrandId = array_column($productidxCollectionArray,'idx_id');
+            $productidxBrandNames = array_column($productidxCollectionArray,'brand');
+            $productidxBrandNames = array_combine($productidxBrandId,$productidxBrandNames);
+
+            $brand = Mage::getModel('brand/brand');       
+            $brandCollection = $brand->getCollection();
+            $brandCollectionArray = $brand->getCollection()->getData();
+            $brandBrandId = array_column($brandCollectionArray,'brand_id');
+            $brandNames = array_column($brandCollectionArray,'name');
+            $brandNames = array_combine($brandBrandId,$brandNames);
+
+            // echo "<pre>";
+            // print_r($productidxCollection->getData());
+            // print_r($productidxBrandNames);
+            // print_r($productidxBrandId);
+            // print_r($brandNames);
+
+            // print_r($a = array_diff_key($brandNames, $productidxBrandNames));
+            // print_r(array_diff_key($brandNames,$a));
+            // die();
+
+            $newBrands = $productidx->updateBrandTable(array_unique($productidxBrandNames));
+            // print_r($newBrands);
+
+            foreach ($productidxCollection as $productidx) 
+            {
+                $productidxBrandName = $productidx->getData('brand');
+                $brandId = array_search($productidxBrandName,$newBrands);
+                $resource = Mage::getSingleton('core/resource');
+                $connection = $resource->getConnection('core_write');
+                $tableName = $resource->getTableName('import_product_idx');
+                $condition = '`idx_id` = '.$productidx->idx_id;
+                $query = "UPDATE `{$tableName}` SET `brand_id` = {$brandId} WHERE {$condition}";
+                $connection->query($query); 
+            }
+            Mage::getSingleton('adminhtml/session')->addSuccess('Brand is fine now');
+        } catch (Exception $e) {
+            Mage::logException($e);
+        }
+        $this->_redirect('*/*/index');
+    }
+
+    function getOptionIdByValue($value, $options)
+    {
+        foreach ($options as $option) {
+            if ($option['label'] == $value) {
+                return $option['value'];
+            }
+        }
+        return null;
+    }
+
+    function getMissingBrandOptions($existingOptions, $rows)
+    {
+        $existingValues = array_column($rows, 'brand_value');
+        return array_diff($existingOptions, $existingValues);
+    }
+
+    public function productAction()
+    {
+        echo "string";
+    }
+
+    public function collectionAction()
+    {
+        echo "string";
+    }
 }
