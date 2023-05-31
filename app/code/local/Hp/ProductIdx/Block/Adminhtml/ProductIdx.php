@@ -22,7 +22,7 @@ class Hp_ProductIdx_Block_Adminhtml_ProductIdx extends Mage_Adminhtml_Block_Widg
 
             $this->_addButton('collection', array(
                 'label'     => 'Collection',
-                'onclick'   => 'setLocation("")'
+                'onclick' => 'setLocation(\'' . $this->getUrl('*/*/collection') . '\')',
             ));
             $this->_addButton('product', array(
                 'label'     => 'Product',

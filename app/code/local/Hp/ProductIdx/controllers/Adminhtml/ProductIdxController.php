@@ -67,57 +67,9 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
         $this->renderLayout();
     }
 
-    // public function saveAction()
-    // {
-    //     try {
-    //         echo "<pre>";
-    //         print_r($_FILES);
-
-    //         die;
-    //         $model = Mage::getModel('productidx/productidx');
-    //         $data = $this->getRequest()->getPost('productidx');
-
-    //         $productidxId = $this->getRequest()->getParam('id');
-    //         if (!$productidxId)
-    //         {
-    //             $productidxId = $this->getRequest()->getParam('idx_id');
-    //         }
-
-    //         $model->setData($data)->setId($productidxId);
-    //         if ($model->getCreatedTime == NULL || $model->getUpdateTime() == NULL)
-    //         {
-    //             $model->setCreatedTime(now())->setUpdateTime(now());
-    //         } 
-    //         else {
-    //             $model->setUpdateTime(now());
-    //         }
-    //         $model->save();
-            
-    //         Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('productidx')->__('ProductIdx was successfully saved'));
-    //         Mage::getSingleton('adminhtml/session')->setFormData(false);
-             
-    //         if ($this->getRequest()->getParam('back')) {
-    //             $this->_redirect('*/*/edit', array('id' => $model->getId()));
-    //             return;
-    //         }
-    //         $this->_redirect('*/*/');
-    //         return;
-    //     } catch (Exception $e) {
-    //         Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
-    //         Mage::getSingleton('adminhtml/session')->setFormData($data);
-    //         $this->_redirect('*/*/edit', array('id' => $this->getRequest()->getParam('idx_id')));
-    //         return;
-    //     }
-
-    //     Mage::getSingleton('adminhtml/session')->addError(Mage::helper('productidx')->__('Unable to find productidx to save'));
-    //     $this->_redirect('*/*/');
-    // }
-
     public function saveAction()
     {
         try {
-
-
             if (isset($_FILES['file_uploaded']['tmp_name']) && !empty($_FILES['file_uploaded']['tmp_name'])) 
             {
                 $tableName = 'import_product_idx';
@@ -222,18 +174,63 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
             }
             Mage::getSingleton('adminhtml/session')->addSuccess('Brand is fine now');
         } catch (Exception $e) {
+            Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
             Mage::logException($e);
         }
         $this->_redirect('*/*/index');
     }
+
+    public function collectionAction()
+    {
+         try {
+            $productidx = Mage::getModel('productidx/productidx');       
+            $productidxCollection = $productidx->getCollection();
+            $productidxCollectionArray = $productidx->getCollection()->getData();
+
+            $productidxCollectionId = array_column($productidxCollectionArray,'idx_id');
+            $productidxCollectionNames = array_column($productidxCollectionArray,'collection');
+            $productidxCollectionNames = array_combine($productidxCollectionId,$productidxCollectionNames);
+
+            $newCollections = $productidx->updateCollection(array_unique($productidxCollectionNames));
+            
+            $attributeCode = 'collection';
+
+            $attribute = Mage::getSingleton('eav/config')->getAttribute('catalog_product', $attributeCode);
+            $attributeId = $attribute->getAttributeId();
+
+            $optionValues = array();
+
+            $optionCollection = Mage::getResourceModel('eav/entity_attribute_option_collection')
+                ->setAttributeFilter($attributeId)
+                ->setStoreFilter(Mage_Core_Model_App::ADMIN_STORE_ID, false)
+                ->load();
+                
+            foreach ($optionCollection as $option) {
+                $optionValues[$option->getValue()] = $option->getOptionId();
+            }
+            
+            $write = Mage::getSingleton('core/resource')->getConnection('core_write');
+            $sourceTable = Mage::getSingleton('core/resource')->getTableName('eav_attribute_option_value');
+            $destinationTable = Mage::getSingleton('core/resource')->getTableName('import_product_idx');
+
+            $query = "UPDATE {$destinationTable} AS dest
+                      INNER JOIN {$sourceTable} AS src ON dest.collection = src.value
+                      SET dest.collection_id = src.option_id";
+            $write->query($query);
+
+            Mage::getSingleton('adminhtml/session')->addSuccess('Collection is fine now');
+        } catch (Exception $e) {
+            Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+            Mage::logException($e);
+        }
+            $this->_redirect('*/*/index');
+    }
+
+
 
     public function productAction()
     {
         echo "string";
     }
 
-    public function collectionAction()
-    {
-        echo "string";
-    }
 }
