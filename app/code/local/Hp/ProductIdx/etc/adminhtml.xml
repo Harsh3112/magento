@@ -1,0 +1,47 @@
+<config>
+	<menu>
+		<productidx module="productidx">
+            <title>ProductIdx</title>
+            <sort_order>10</sort_order>
+            <children>
+                <manageProductIdx module="productidx">
+                    <title>Manage ProductIdxs</title>
+            		<action>productidx/adminhtml_productidx/index</action>
+                    <sort_order>10</sort_order>
+                </manageProductIdx>
+            </children>
+        </productidx>
+	</menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everthing</title>
+            </all>
+            <admin>
+                <children>
+                    <productidx template="title" module="productidx">
+                        <title>ProductIdxs</title>
+                        <sort_order>100</sort_order>
+                        <children>
+                            <manageProductIdx template="title" >
+                                <title>Manaage ProductIdx</title>
+                            </manageProductIdx>
+                        </children>
+                    </productidx>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <productidx translate="title" module="productidx">
+                                        <title>productidxs Section</title>
+                                        <sort_order>50</sort_order>
+                                    </productidx>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
