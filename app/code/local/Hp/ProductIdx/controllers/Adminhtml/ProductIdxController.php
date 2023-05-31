@@ -161,13 +161,12 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
         }
 
         $this->_redirect('*/*/index');
-    }catch (Exception $e) {
+        }catch (Exception $e) {
             Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
             Mage::getSingleton('adminhtml/session')->setFormData($data);
             $this->_redirect('*/*/edit', array('id' => $this->getRequest()->getParam('idx_id')));
             return;
         }
-        Mage::getSingleton('adminhtml/session')->addError(Mage::helper('productidx')->__('Unable to find productIdx to save'));
         $this->_redirect('*/*/');
     }
 

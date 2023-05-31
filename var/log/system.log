@@ -588,3 +588,51 @@
 2023-05-31T05:16:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
 2023-05-31T05:16:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
 2023-05-31T05:16:04+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:34:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:34:40+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:34:40+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:11+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:11+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:15+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:15+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:26+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:26+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:37+00:00 ERR (3): Notice: Undefined variable: idxBrandNames  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\Model\ProductIdx.php on line 16
+2023-05-31T05:40:37+00:00 ERR (3): Warning: array_diff(): Argument #1 is not an array  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\Model\ProductIdx.php on line 16
+2023-05-31T05:40:37+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\Model\ProductIdx.php on line 19
+2023-05-31T05:40:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:38+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:38+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:47+00:00 ERR (3): Notice: Undefined variable: idxBrandNames  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\Model\ProductIdx.php on line 16
+2023-05-31T05:40:47+00:00 ERR (3): Warning: array_diff(): Argument #1 is not an array  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\Model\ProductIdx.php on line 16
+2023-05-31T05:40:47+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\Model\ProductIdx.php on line 19
+2023-05-31T05:40:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:40:48+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:46:57+00:00 ERR (3): Notice: Array to string conversion  in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php on line 228
+2023-05-31T05:46:58+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:46:58+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:46:58+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:47:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:47:45+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:47:45+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:47:51+00:00 ERR (3): Notice: Array to string conversion  in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php on line 228
+2023-05-31T05:47:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:47:52+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:47:52+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:48:02+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:48:02+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:48:02+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:49:17+00:00 ERR (3): Notice: Array to string conversion  in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php on line 228
+2023-05-31T05:49:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:49:18+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:49:18+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:50:07+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:50:07+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:50:07+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:54:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:54:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-05-31T05:54:05+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
