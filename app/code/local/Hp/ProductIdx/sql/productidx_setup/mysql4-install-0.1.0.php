@@ -13,6 +13,7 @@ $installer->run("
   `sku` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   `price` int(11) NOT NULL,
+  `cost` int(11) NOT NULL,
   `quantity` int(11) NOT NULL,
   `brand` varchar(255) NOT NULL,
   `brand_id` int(11) NOT NULL,

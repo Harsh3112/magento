@@ -55,6 +55,12 @@ class Hp_ProductIdx_Block_Adminhtml_ProductIdx_Grid extends Mage_Adminhtml_Block
             'index'     => 'price',
         ));
 
+        $this->addColumn('cost', array(
+            'header'    => Mage::helper('productidx')->__('Cost'),
+            'align'     => 'left',
+            'index'     => 'cost',
+        ));
+        
         $this->addColumn('quantity', array(
             'header'    => Mage::helper('productidx')->__('Quantity'),
             'align'     => 'left',
@@ -66,6 +72,7 @@ class Hp_ProductIdx_Block_Adminhtml_ProductIdx_Grid extends Mage_Adminhtml_Block
             'align'     => 'left',
             'index'     => 'brand',
         ));
+
 
         $this->addColumn('brand_id', array(
             'header'    => Mage::helper('productidx')->__('Brand Id'),

@@ -67,45 +67,107 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
         $this->renderLayout();
     }
 
+    // public function saveAction()
+    // {
+    //     try {
+    //         echo "<pre>";
+    //         print_r($_FILES);
+
+    //         die;
+    //         $model = Mage::getModel('productidx/productidx');
+    //         $data = $this->getRequest()->getPost('productidx');
+
+    //         $productidxId = $this->getRequest()->getParam('id');
+    //         if (!$productidxId)
+    //         {
+    //             $productidxId = $this->getRequest()->getParam('idx_id');
+    //         }
+
+    //         $model->setData($data)->setId($productidxId);
+    //         if ($model->getCreatedTime == NULL || $model->getUpdateTime() == NULL)
+    //         {
+    //             $model->setCreatedTime(now())->setUpdateTime(now());
+    //         } 
+    //         else {
+    //             $model->setUpdateTime(now());
+    //         }
+    //         $model->save();
+            
+    //         Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('productidx')->__('ProductIdx was successfully saved'));
+    //         Mage::getSingleton('adminhtml/session')->setFormData(false);
+             
+    //         if ($this->getRequest()->getParam('back')) {
+    //             $this->_redirect('*/*/edit', array('id' => $model->getId()));
+    //             return;
+    //         }
+    //         $this->_redirect('*/*/');
+    //         return;
+    //     } catch (Exception $e) {
+    //         Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+    //         Mage::getSingleton('adminhtml/session')->setFormData($data);
+    //         $this->_redirect('*/*/edit', array('id' => $this->getRequest()->getParam('idx_id')));
+    //         return;
+    //     }
+
+    //     Mage::getSingleton('adminhtml/session')->addError(Mage::helper('productidx')->__('Unable to find productidx to save'));
+    //     $this->_redirect('*/*/');
+    // }
+
     public function saveAction()
     {
         try {
-            $model = Mage::getModel('productidx/productidx');
-            $data = $this->getRequest()->getPost('productidx');
 
-            $productidxId = $this->getRequest()->getParam('id');
-            if (!$productidxId)
-            {
-                $productidxId = $this->getRequest()->getParam('idx_id');
-            }
 
-            $model->setData($data)->setId($productidxId);
-            if ($model->getCreatedTime == NULL || $model->getUpdateTime() == NULL)
+            if (isset($_FILES['file_uploaded']['tmp_name']) && !empty($_FILES['file_uploaded']['tmp_name'])) 
             {
-                $model->setCreatedTime(now())->setUpdateTime(now());
-            } 
-            else {
-                $model->setUpdateTime(now());
-            }
-            $model->save();
-            
-            Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('productidx')->__('ProductIdx was successfully saved'));
-            Mage::getSingleton('adminhtml/session')->setFormData(false);
-             
-            if ($this->getRequest()->getParam('back')) {
-                $this->_redirect('*/*/edit', array('id' => $model->getId()));
-                return;
-            }
-            $this->_redirect('*/*/');
-            return;
-        } catch (Exception $e) {
+                $tableName = 'import_product_idx';
+                $resource = Mage::getSingleton('core/resource');
+                $connection = $resource->getConnection('core_write');
+                $table = $resource->getTableName($tableName);
+                $connection->query("TRUNCATE TABLE `$table`");
+
+                $csvFile = $_FILES['file_uploaded']['tmp_name'];
+                $csvData = array_map('str_getcsv', file($csvFile));
+                $columns = $csvData[0];
+                unset($csvData[0]);
+                $tableName = Mage::getSingleton('core/resource')->getTableName('import_product_idx');
+                $connection = Mage::getSingleton('core/resource')->getConnection('core_write');
+                $counter = 0;
+
+                foreach ($csvData as $data) {
+                    $counter ++;
+                    $row['sku'] = $data[0];
+                    $row[$columns[1]] =  $data[1];
+                    $row[$columns[2]] =  $data[2];
+                    $row[$columns[3]] =  $data[3];
+                    $row[$columns[4]] =  $data[4];
+                    $row[$columns[5]] =  $data[5];
+                    $row[$columns[6]] =  $data[6];
+                    $row[$columns[7]] =  $data[7];
+                    $row[$columns[8]] =  $data[8];
+                    // $dataToInsert[] = $row;
+                    $query = $connection->insertOnDuplicate(
+                        $tableName,
+                        $row,
+                        array_keys($row)                
+                    );
+                }
+
+                Mage::getSingleton('adminhtml/session')->addSuccess(
+                    Mage::helper('adminhtml')->__('Total of %d record(s) were saved.', $counter)
+                );
+            } else {
+            Mage::getSingleton('adminhtml/session')->addError('No CSV file uploaded.');
+        }
+
+        $this->_redirect('*/*/index');
+    }catch (Exception $e) {
             Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
             Mage::getSingleton('adminhtml/session')->setFormData($data);
             $this->_redirect('*/*/edit', array('id' => $this->getRequest()->getParam('idx_id')));
             return;
         }
-
-        Mage::getSingleton('adminhtml/session')->addError(Mage::helper('productidx')->__('Unable to find productidx to save'));
+        Mage::getSingleton('adminhtml/session')->addError(Mage::helper('productidx')->__('Unable to find productIdx to save'));
         $this->_redirect('*/*/');
     }
 
@@ -145,18 +207,8 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
             $brandNames = array_column($brandCollectionArray,'name');
             $brandNames = array_combine($brandBrandId,$brandNames);
 
-            // echo "<pre>";
-            // print_r($productidxCollection->getData());
-            // print_r($productidxBrandNames);
-            // print_r($productidxBrandId);
-            // print_r($brandNames);
-
-            // print_r($a = array_diff_key($brandNames, $productidxBrandNames));
-            // print_r(array_diff_key($brandNames,$a));
-            // die();
 
             $newBrands = $productidx->updateBrandTable(array_unique($productidxBrandNames));
-            // print_r($newBrands);
 
             foreach ($productidxCollection as $productidx) 
             {
@@ -174,22 +226,6 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
             Mage::logException($e);
         }
         $this->_redirect('*/*/index');
-    }
-
-    function getOptionIdByValue($value, $options)
-    {
-        foreach ($options as $option) {
-            if ($option['label'] == $value) {
-                return $option['value'];
-            }
-        }
-        return null;
-    }
-
-    function getMissingBrandOptions($existingOptions, $rows)
-    {
-        $existingValues = array_column($rows, 'brand_value');
-        return array_diff($existingOptions, $existingValues);
     }
 
     public function productAction()

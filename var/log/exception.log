@@ -512,3 +512,135 @@ Stack trace:
 #10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
 #11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
 #12 {main}
+2023-05-31T04:58:23+00:00 ERR (3): 
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `idx_id` = 1' at line 1 in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php:228
+Stack trace:
+#0 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php(228): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Statement\Pdo\Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Zend\Db\Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `import_...', Array)
+#5 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php(504): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `import_...', Array)
+#6 C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\controllers\Adminhtml\ProductIdxController.php(223): Varien_Db_Adapter_Pdo_Mysql->query('UPDATE `import_...')
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_ProductIdx_Adminhtml_ProductIdxController->brandAction()
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('brand')
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#11 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#12 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#13 {main}
+
+Next Zend_Db_Statement_Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `idx_id` = 1' at line 1, query was: UPDATE `import_product_idx` SET `brand_id` =  WHERE `idx_id` = 1 in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php:235
+Stack trace:
+#0 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Statement\Pdo\Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Zend\Db\Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#2 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Abstract.php(480): Zend_Db_Statement->execute(Array)
+#3 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `import_...', Array)
+#4 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php(504): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `import_...', Array)
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\controllers\Adminhtml\ProductIdxController.php(223): Varien_Db_Adapter_Pdo_Mysql->query('UPDATE `import_...')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_ProductIdx_Adminhtml_ProductIdxController->brandAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('brand')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-31T04:58:33+00:00 ERR (3): 
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `idx_id` = 1' at line 1 in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php:228
+Stack trace:
+#0 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php(228): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Statement\Pdo\Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Zend\Db\Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `import_...', Array)
+#5 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php(504): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `import_...', Array)
+#6 C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\controllers\Adminhtml\ProductIdxController.php(223): Varien_Db_Adapter_Pdo_Mysql->query('UPDATE `import_...')
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_ProductIdx_Adminhtml_ProductIdxController->brandAction()
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('brand')
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#11 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#12 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#13 {main}
+
+Next Zend_Db_Statement_Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `idx_id` = 1' at line 1, query was: UPDATE `import_product_idx` SET `brand_id` =  WHERE `idx_id` = 1 in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php:235
+Stack trace:
+#0 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Statement\Pdo\Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Zend\Db\Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#2 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Abstract.php(480): Zend_Db_Statement->execute(Array)
+#3 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `import_...', Array)
+#4 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php(504): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `import_...', Array)
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\controllers\Adminhtml\ProductIdxController.php(223): Varien_Db_Adapter_Pdo_Mysql->query('UPDATE `import_...')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_ProductIdx_Adminhtml_ProductIdxController->brandAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('brand')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-31T05:06:51+00:00 ERR (3): 
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `idx_id` = 1' at line 1 in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php:228
+Stack trace:
+#0 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php(228): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Statement\Pdo\Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Zend\Db\Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `import_...', Array)
+#5 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php(504): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `import_...', Array)
+#6 C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\controllers\Adminhtml\ProductIdxController.php(223): Varien_Db_Adapter_Pdo_Mysql->query('UPDATE `import_...')
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_ProductIdx_Adminhtml_ProductIdxController->brandAction()
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('brand')
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#11 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#12 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#13 {main}
+
+Next Zend_Db_Statement_Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `idx_id` = 1' at line 1, query was: UPDATE `import_product_idx` SET `brand_id` =  WHERE `idx_id` = 1 in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php:235
+Stack trace:
+#0 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Statement\Pdo\Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Zend\Db\Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#2 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Abstract.php(480): Zend_Db_Statement->execute(Array)
+#3 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `import_...', Array)
+#4 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php(504): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `import_...', Array)
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\controllers\Adminhtml\ProductIdxController.php(223): Varien_Db_Adapter_Pdo_Mysql->query('UPDATE `import_...')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_ProductIdx_Adminhtml_ProductIdxController->brandAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('brand')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2023-05-31T05:07:08+00:00 ERR (3): 
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `idx_id` = 1' at line 1 in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php:228
+Stack trace:
+#0 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php(228): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Statement\Pdo\Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 C:\xampp\htdocs\2023\magento\app\code\core\Zend\Db\Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `import_...', Array)
+#5 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php(504): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `import_...', Array)
+#6 C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\controllers\Adminhtml\ProductIdxController.php(223): Varien_Db_Adapter_Pdo_Mysql->query('UPDATE `import_...')
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_ProductIdx_Adminhtml_ProductIdxController->brandAction()
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('brand')
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#11 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#12 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#13 {main}
+
+Next Zend_Db_Statement_Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `idx_id` = 1' at line 1, query was: UPDATE `import_product_idx` SET `brand_id` =  WHERE `idx_id` = 1 in C:\xampp\htdocs\2023\magento\lib\Zend\Db\Statement\Pdo.php:235
+Stack trace:
+#0 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Statement\Pdo\Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#1 C:\xampp\htdocs\2023\magento\app\code\core\Zend\Db\Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#2 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Abstract.php(480): Zend_Db_Statement->execute(Array)
+#3 C:\xampp\htdocs\2023\magento\lib\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `import_...', Array)
+#4 C:\xampp\htdocs\2023\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php(504): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `import_...', Array)
+#5 C:\xampp\htdocs\2023\magento\app\code\local\Hp\ProductIdx\controllers\Adminhtml\ProductIdxController.php(223): Varien_Db_Adapter_Pdo_Mysql->query('UPDATE `import_...')
+#6 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_ProductIdx_Adminhtml_ProductIdxController->brandAction()
+#7 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('brand')
+#8 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
+#12 {main}

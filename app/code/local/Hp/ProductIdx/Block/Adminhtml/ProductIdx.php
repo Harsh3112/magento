@@ -12,7 +12,8 @@ class Hp_ProductIdx_Block_Adminhtml_ProductIdx extends Mage_Adminhtml_Block_Widg
         parent::__construct();
 
         if ($this->_isAllowedAction('save')) {
-            $this->_updateButton('add', 'label', Mage::helper('productidx')->__('Add New ProductIdx'));
+            // $this->_updateButton('add', 'label', Mage::helper('productidx')->__('Add New ProductIdx'));
+            $this->_updateButton('add', 'label', Mage::helper('productidx')->__('Import ProductIdx'));
 
             $this->_addButton('brand', array(
                 'label'   => 'Brand',
