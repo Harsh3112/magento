@@ -56,4 +56,101 @@ class Hp_ProductIdx_Model_ProductIdx extends Mage_Core_Model_Abstract
         }
     }
 
+    // public function updateMainProduct($idxSkus)
+    // {
+    //     echo "<pre>";
+    //     print_r($idxSkus);die;
+    //     $productCollection = Mage::getModel('catalog/product')->getCollection();
+    //     $productSku = array_column($productCollection->getData(), 'sku');
+    //     $newProducts = array_diff($idxSkus, $productSku);
+    //     $entityTypeId = Mage::getModel('catalog/product')->getResource()->getTypeId();
+
+    //     if($newProducts){
+    //         foreach ($newProducts as $sku) {
+    //             $data[] = [
+    //                 'sku'=>$sku,
+    //                 'entity_type_id'=>$entityTypeId,
+    //                 'attribute_set_id'=>4,
+    //                 // 'visibility'=>4,
+    //                 'created_at'=>now(),
+    //             ];
+    //         }
+
+    //         if($data){
+    //             $resource = Mage::getSingleton('core/resource');
+    //             $tableName = $resource->getTableName('catalog_product_entity');
+    //             $writeConnection = $resource->getConnection('core_write');
+    //             $writeConnection->insertMultiple($tableName, $data);
+    //         }
+    //     }        
+
+    //     return true;    
+    // }
+
+
+    public function updateMainProduct($idxProductData)
+    {
+        $product = Mage::getModel('catalog/product')->getCollection();
+
+        $skuArray = $product->getData();
+        $productSkus = array_column($skuArray, 'sku');
+
+        $idxSkuData = array_column($idxProductData, 'sku');
+
+        $newProducts = array_diff($idxSkuData, $productSkus);
+        $entityTypeId = Mage::getModel('catalog/product')->getResource()->getTypeId();
+        foreach ($idxProductData as $item) {
+        $product = Mage::getModel('catalog/product');
+            if(in_array($item['sku'], $newProducts))
+            {
+               $data = [
+                'entity_type_id' => $entityTypeId,
+                'attribute_set_id' => 4,
+                'type_id' => 'simple',
+                'sku' => $item['sku'],
+                'has_options' => 0,
+                'required_options' => 0,
+                'name' => $item['name'],
+                'price' => $item['price'],
+                'status' => Mage_Catalog_Model_Product_Status::STATUS_ENABLED,
+                'visibility' => '4',
+                'tax_class_id' => '2',
+                'weight' => '0.5',
+                ];
+                $product->setData($data);
+                $product->setStockData(array(
+                        'is_in_stock' => 1,
+                        'qty' => $item['quantity'])
+                    );
+                $product->save();
+            }
+        }
+    }
+
+    public function checkBrands()
+    {
+        $datas = $this->getCollection()->getItems();
+
+        foreach ($datas as $data) 
+        {
+            if ($data->brand_id != Null) {
+                return true;
+            }
+            return false;
+        }
+    }
+
+    public function checkCollection()
+    {
+        $datas = $this->getCollection()->getItems();
+
+        foreach ($datas as $data) 
+        {
+            if ($data->collection_id != Null) {
+                return true;
+            }
+            return false;
+        }
+    }
+
 }

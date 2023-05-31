@@ -204,7 +204,7 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
                 ->setAttributeFilter($attributeId)
                 ->setStoreFilter(Mage_Core_Model_App::ADMIN_STORE_ID, false)
                 ->load();
-                
+
             foreach ($optionCollection as $option) {
                 $optionValues[$option->getValue()] = $option->getOptionId();
             }
@@ -223,14 +223,53 @@ class Hp_ProductIdx_Adminhtml_ProductIdxController extends Mage_Adminhtml_Contro
             Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
             Mage::logException($e);
         }
-            $this->_redirect('*/*/index');
+        $this->_redirect('*/*/index');
     }
-
-
 
     public function productAction()
     {
-        echo "string";
+        try {
+            $idxModel = Mage::getModel('productidx/productidx');
+            $brandResult = $idxModel->checkBrands();
+            $collectionResult = $idxModel->checkCollection();
+
+            if (!$brandResult) {
+                Mage::getSingleton('adminhtml/session')->addError('Brand is not fine');
+            }
+            if (!$collectionResult) {
+                Mage::getSingleton('adminhtml/session')->addError('Collection is not fine');
+            }
+
+            $productidx = Mage::getModel('productidx/productidx');       
+            $productidxCollection = $productidx->getCollection();
+            $productidxCollectionArray = $productidx->getCollection()->getData();
+
+            // $productidxProductId = array_column($productidxCollectionArray,'idx_id');
+            // $productidxProductNames = array_column($productidxCollectionArray,'sku');
+            // $productidxProductNames = array_combine($productidxProductId,$productidxProductNames);
+
+            // echo "<pre>";
+            // print_r($productidxCollectionArray);die;
+
+            $newProducts = $productidx->updateMainProduct($productidxCollectionArray);
+
+            $write = Mage::getSingleton('core/resource')->getConnection('core_write');
+            $sourceTable = Mage::getSingleton('core/resource')->getTableName('catalog_product_entity');
+            $destinationTable = Mage::getSingleton('core/resource')->getTableName('import_product_idx');
+
+            $query = "UPDATE {$destinationTable} AS dest
+                      INNER JOIN {$sourceTable} AS src ON dest.sku = src.sku
+                      SET dest.product_id = src.entity_id";
+            $write->query($query);
+            
+            Mage::getSingleton('adminhtml/session')->addSuccess('Products imported successfully');
+
+
+        } catch (Exception $e) {
+            Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+            Mage::logException($e);
+        }
+        $this->_redirect('*/*/index');
     }
 
 }

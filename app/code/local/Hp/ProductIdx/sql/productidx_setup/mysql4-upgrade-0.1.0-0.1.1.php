@@ -12,6 +12,7 @@ ALTER TABLE `import_product_idx` CHANGE `brand_id` `brand_id` INT(11) NULL DEFAU
 
 ALTER TABLE `import_product_idx` CHANGE `collection_id` `collection_id` INT(11) NULL DEFAULT NULL;
 
+ALTER TABLE `import_product_idx` CHANGE `product_id` `product_id` INT(11) NULL DEFAULT NULL;
 
 ");
 

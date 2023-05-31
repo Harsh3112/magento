@@ -7,7 +7,7 @@ class Hp_ProductIdx_Block_Adminhtml_ProductIdx extends Mage_Adminhtml_Block_Widg
         
         $this->_blockGroup = 'productidx';
         $this->_controller = 'adminhtml_productidx';
-        $this->_headerText = Mage::helper('productidx')->__('Manage ProductIdxs');
+        $this->_headerText = Mage::helper('productidx')->__('Manage Product Idx');
 
         parent::__construct();
 
@@ -26,7 +26,7 @@ class Hp_ProductIdx_Block_Adminhtml_ProductIdx extends Mage_Adminhtml_Block_Widg
             ));
             $this->_addButton('product', array(
                 'label'     => 'Product',
-                'onclick'   => 'setLocation("")'
+                'onclick' => 'setLocation(\'' . $this->getUrl('*/*/product') . '\')',
             ));
         } else {
             $this->_removeButton('add');
