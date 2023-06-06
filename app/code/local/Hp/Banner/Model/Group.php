@@ -15,4 +15,14 @@ class Hp_Banner_Model_Group extends Mage_Core_Model_Abstract
         $result = array_combine($groupId, $name);
         return $result; 
     }
+
+    public function getBaseTmpMediaPath()
+    {
+        return 'media'.DS.'banner'.DS.'original';
+    }
+
+    public function getTmpMediaUrl($file)
+    {
+        return Mage::getBaseUrl('media').DS.'tmp'.DS.'banner'.DS.'original'.DS.$file;
+    }
 }
