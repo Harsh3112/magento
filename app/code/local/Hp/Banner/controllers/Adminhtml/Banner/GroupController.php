@@ -73,10 +73,8 @@ class Hp_Banner_Adminhtml_Banner_GroupController extends Mage_Adminhtml_Controll
     {
         try {
             $model = Mage::getModel('banner/group');
-
             $data = $this->getRequest()->getPost('group');
-
-            // echo "<pre>";
+            // $data = $this->getRequest()->getPost();
             // print_r($data);die;
 
             $groupId = $this->getRequest()->getParam('id');
@@ -93,9 +91,29 @@ class Hp_Banner_Adminhtml_Banner_GroupController extends Mage_Adminhtml_Controll
             else {
                 $model->setUpdateTime(now());
             }
-
-            // print_r($model);die;
             $model->save();
+
+            $bannerModel = Mage::getModel('banner/banner');
+            $positions = $this->getRequest()->getPost('position');
+            $statues = $this->getRequest()->getPost('status');
+            foreach ($positions as $id => $position) 
+            {
+                $bannerModel->load($id);
+                $bannerModel->setPosition($position);
+                if (!$statues[$id]) 
+                {
+                    $statues[$id] = 2;
+                }
+                $bannerModel->setStatus($statues[$id]);
+                $bannerModel->save();
+            }
+
+            $delete = $this->getRequest()->getPost('remove');
+            foreach ($delete as $id => $del) 
+            {
+                $bannerModel->load($id);
+                $bannerModel->delete();
+            }
 
             Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('banner')->__('Banner was successfully saved'));
             Mage::getSingleton('adminhtml/session')->setFormData(false);
@@ -134,5 +152,49 @@ class Hp_Banner_Adminhtml_Banner_GroupController extends Mage_Adminhtml_Controll
             }
         }
         $this->_redirect('*/*/');
+    }
+
+
+    public function uploadAction()
+    {
+        try {
+            $id = $this->getRequest()->getParam('group_id');
+            $bannerGroupModel = Mage::getModel('banner/group')->load($id);
+                        $width = $bannerGroupModel->width;
+                        $height = $bannerGroupModel->height;
+            foreach ($_FILES['file']['tmp_name'] as $index => $tmpName) {
+                $uploader = new Mage_Core_Model_File_Uploader('file[' . $index . ']');
+                $uploader->setAllowedExtensions(array('jpg', 'jpeg', 'gif', 'png'));
+                $uploader->setAllowRenameFiles(true);
+                $uploader->setFilesDispersion(false);
+
+                $uploadDir = Mage::getBaseDir('media') . DS . 'banner' . DS . 'original';
+                $uploadResizedDir = Mage::getBaseDir('media') . DS . 'banner' . DS . 'resized';
+                $uploader->save($uploadDir, $images['name'][$index]);
+
+                $uploadedFilePath = $uploadDir . DS . $uploader->getUploadedFileName();
+                $resizedFilePath = $uploadResizedDir . DS . $uploader->getUploadedFileName();
+
+                 $image = new Varien_Image($uploadedFilePath);
+                        // $image->constrainOnly(true);
+                        $image->keepAspectRatio(true);
+                        $image->resize($width, $height);
+                        $image->save($resizedFilePath);
+                        $model = Mage::getModel('banner/banner');
+                        $model->setImage('banner'.DS.'resized'.DS.$uploader->getUploadedFileName());
+                        $model->group_id = $id;
+                        $model->created_at = date('Y-m-d H:i:s');
+                        $model->save();
+                        // $model->image = 'banner/resized/'.$model->getId().'.'.$ext;
+                        // $model->save();
+            }
+            Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('adminhtml')->__('Image was successfully saved.'));
+
+            
+        } catch (Exception $e) {
+            Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+        }
+
+        $this->_redirect('*/*/edit',['group_id'=> $id]);
     }
 }
