@@ -5,6 +5,22 @@
         </Hp_Banner>
     </modules>
     <frontend>
+        <routers>
+            <banner>
+                <use>standard</use>
+                <args>
+                    <module>Hp_Banner</module>
+                    <frontName>banner</frontName>
+                </args>
+            </banner>
+        </routers>
+        <layout>
+            <updates>
+                <banner module="Hp_Banner">
+                    <file>banner.xml</file>
+                </banner>
+            </updates>
+        </layout>
     </frontend>
     <global>
         <models>

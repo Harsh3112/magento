@@ -10,7 +10,7 @@ class Hp_Banner_Block_Adminhtml_Banner_Group_Edit_Tab_Image extends Mage_Adminht
     public function getBannerCollection()
     {
         $collection = Mage::getModel('banner/banner')->getCollection();
-        $collection->addFieldToFilter('group_id',$this->getRequest()->getParam('group_id'));
+        $collection->addFieldToFilter('group_id',$this->getRequest()->getParam('group_id'))->addOrder('position','ASC');
         return $collection;
     }
 }
