@@ -1,10 +1,17 @@
 <config>
     <modules>
         <Hp_Brand>    
-            <version>1.0.1</version>
+            <version>1.0.3</version>
         </Hp_Brand>
     </modules>
     <frontend>
+        <layout>
+            <updates>
+                <brand module="Hp_Brand">
+                    <file>brand.xml</file>
+                </brand>
+            </updates>
+        </layout>
     </frontend>
     <global>
         <models>
@@ -58,6 +65,16 @@
                   <class>Hp_brand_Helper</class>
             </brand>
         </helpers>
+        <events>
+            <brand_save_after>
+                <observers>
+                    <Hp_brand_generate_brand_rewrite_url>
+                        <class>Hp_Brand_Model_Observer</class>
+                        <method>generateBrandRewriteUrl</method>
+                    </Hp_brand_generate_brand_rewrite_url>
+                </observers>
+            </brand_save_after>
+        </events>
     </global>
     <admin>
         <routers>

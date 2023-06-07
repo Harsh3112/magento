@@ -23,21 +23,7 @@ class Hp_Banner_Block_Adminhtml_Banner_Group_Edit_Tabs extends Mage_Adminhtml_Bl
             'title' => Mage::helper('banner')->__('Image Information'),
             'content' => $this->getLayout()->createBlock('banner/adminhtml_banner_group_edit_tab_image')->toHtml(),
         ));
-            // $product = new Mage_Catalog_Model_Product();
-            // $product->load(10);
-            // $attributes = $product->getAttributes(10, true);
-            // $group = new Mage_Eav_Model_Entity_Attribute_Group();
-            // $group->load(10);
-            // $this->addTab('group_10', array(
-            //     'label'     => Mage::helper('catalog')->__('Banners'),
-            //     'content'   => $this->getLayout()->createBlock('banner/adminhtml_banner_group_edit_tab_banner',
-            //         'banner.adminhtml.banner.group.edit.tab.banner')->setGroup($group)
-            //             ->setGroupAttributes($attributes)
-            //             ->toHtml()
-            // ));
-
-
-
+            
         return parent::_beforeToHtml();
     }
 }

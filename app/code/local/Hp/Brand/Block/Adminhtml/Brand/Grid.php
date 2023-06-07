@@ -44,6 +44,27 @@ class Hp_Brand_Block_Adminhtml_Brand_Grid extends Mage_Adminhtml_Block_Widget_Gr
             'renderer'  => 'Hp_Brand_Block_Adminhtml_Brand_Grid_Renderer_Image'
         ));
 
+        $this->addColumn('brand_banner', array(
+            'header'    => Mage::helper('brand')->__('Brand Banner'),
+            'align'     => 'left',
+            'index'     => 'brand_banner',
+            'renderer'=> 'Hp_Brand_Block_Adminhtml_Brand_Grid_Renderer_Banner',
+        ));
+
+        $this->addColumn('sort_order', array(
+            'header'    => Mage::helper('brand')->__('Sort Order'),
+            'align'     => 'left',
+            'index'     => 'sort_order',
+        ));
+
+        $this->addColumn('status', array(
+            'header'    => Mage::helper('brand')->__('Status'),
+            'align'     => 'left',
+            'index'     => 'status',
+            'renderer'=> 'Hp_Brand_Block_Adminhtml_Brand_Grid_Renderer_Status',
+
+        ));
+
         $this->addColumn('description', array(
             'header'    => Mage::helper('brand')->__('Description'),
             'align'     => 'left',

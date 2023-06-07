@@ -1,9 +1,0 @@
-a:5:{i:0;s:25:"Invalid image dimensions.";i:1;s:1022:"#0 C:\xampp\htdocs\2023\magento\lib\Varien\Image.php(134): Varien_Image_Adapter_Gd2->resize(NULL, NULL)
-#1 C:\xampp\htdocs\2023\magento\app\code\local\Hp\Banner\controllers\Adminhtml\Banner\GroupController.php(194): Varien_Image->resize(NULL, NULL)
-#2 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hp_Banner_Adminhtml_Banner_GroupController->uploadAction()
-#3 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('upload')
-#4 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#5 C:\xampp\htdocs\2023\magento\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
-#6 C:\xampp\htdocs\2023\magento\app\Mage.php(686): Mage_Core_Model_App->run(Array)
-#7 C:\xampp\htdocs\2023\magento\index.php(83): Mage::run('', 'store')
-#8 {main}";s:3:"url";s:98:"/2023/magento/index.php/banner/adminhtml_banner_group/upload/key/dd4855ea8d97e62d9ce022c1b5ee29e2/";s:11:"script_name";s:23:"/2023/magento/index.php";s:4:"skin";s:5:"admin";}
