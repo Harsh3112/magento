@@ -22,6 +22,31 @@ class Hp_Brand_Block_Adminhtml_Brand_Edit_Tab_Form extends Mage_Adminhtml_Block_
             'class' => 'required-entry'
         ));
 
+         $fieldset->addField('banner', 'file', array(
+            'label' => Mage::helper('brand')->__('Banner'),
+            'required' => false,
+            'name' => 'banner',
+        ));
+
+        $fieldset->addField('url_key', 'text', array(
+            'label' => Mage::helper('brand')->__('Url Key'),
+            'required' => true,
+            'name' => 'brand[url_key]',
+        ));
+
+        $fieldset->addField('sort_order', 'text', array(
+            'label' => Mage::helper('brand')->__('Sort Order'),
+            'required' => false,
+            'name' => 'brand[sort_order]',
+        ));
+
+        $fieldset->addField('status','select', array(
+            'label' => Mage::helper('brand')->__('Status'),
+            'required' => false,
+            'name' => 'brand[status]',
+            'options' => array(1=>'Active',2=>'Inactive')
+        ));
+
         $fieldset->addField('description','text', array(
             'label' => Mage::helper('brand')->__('Description'),
             'required' => true,
@@ -37,8 +62,6 @@ class Hp_Brand_Block_Adminhtml_Brand_Edit_Tab_Form extends Mage_Adminhtml_Block_
             $form->setValues(Mage::registry('brand_edit')->getData());
         }
         return parent::_prepareForm();
-
-
     }
 
 }

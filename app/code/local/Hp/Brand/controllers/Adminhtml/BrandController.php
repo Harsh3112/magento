@@ -71,11 +71,7 @@ class Hp_Brand_Adminhtml_BrandController extends Mage_Adminhtml_Controller_Actio
     {
         try {
             $model = Mage::getModel('brand/brand');
-            $addressData = $this->getRequest()->getPost('address');
             $data = $this->getRequest()->getPost('brand');
-
-            // echo "<pre>";
-            // print_r($_FILES);die;
 
             $brandId = $this->getRequest()->getParam('id');
             if (!$brandId)
@@ -91,7 +87,12 @@ class Hp_Brand_Adminhtml_BrandController extends Mage_Adminhtml_Controller_Actio
             else {
                 $model->setUpdateTime(now());
             }
-            $model->save();
+            $savedData = $model->save();
+
+            if(!$brandId)
+            {
+                Mage::dispatchEvent('brand_save_after', array('brand' => $model));
+            }
 
             if (isset($_FILES['image']['name']) && ($_FILES['image']['name'] != '')) 
             {
@@ -116,7 +117,29 @@ class Hp_Brand_Adminhtml_BrandController extends Mage_Adminhtml_Controller_Actio
                 }
             }
 
-            
+            if (isset($_FILES['banner']['name']) && ($_FILES['banner']['name'] != '')) 
+            {
+                try {
+                    $uploader = new Varien_File_Uploader('banner');
+                    $uploader->setAllowedExtensions(array('jpg', 'jpeg', 'gif', 'png', 'webp'));
+                    $uploader->setAllowRenameFiles(false);
+                    $uploader->setFilesDispersion(false);
+                    
+                    $path = Mage::getBaseDir('media') . DS . 'brand' . DS.'banner';
+                    $extension = pathinfo($_FILES['banner']['name'], PATHINFO_EXTENSION);
+                    if ($uploader->save($path, $savedData->getId().'.'.$extension)) {
+                        $savedData->banner_image = 'brand' . DS.'banner'.DS.$savedData->getId().".".$extension;
+                        if($savedData->save())
+                        Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('brand')->__('Image was successfully uploaded'));
+                    }
+                    
+                    // $imageName = $uploader->getUploadedFileName();
+
+                } catch (Exception $e) {
+                    Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+                }
+            }
+
             Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('brand')->__('Brand was successfully saved'));
             Mage::getSingleton('adminhtml/session')->setFormData(false);
              
@@ -142,10 +165,12 @@ class Hp_Brand_Adminhtml_BrandController extends Mage_Adminhtml_Controller_Actio
         if( $this->getRequest()->getParam('brand_id') > 0 ) {
             try {
                 $model = Mage::getModel('brand/brand');
-                 
+                $brandId = $this->getRequest()->getParam('brand_id');
                 $model->setId($this->getRequest()->getParam('brand_id'))
                 ->delete();
-                 
+                
+                $rewrite = Mage::getModel('core/url_rewrite')->load('brand/'.$brandId, 'id_path')->delete();
+
                 Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('adminhtml')->__('Brand was successfully deleted'));
                 $this->_redirect('*/*/');
             } catch (Exception $e) {
