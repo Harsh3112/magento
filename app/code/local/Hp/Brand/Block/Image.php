@@ -67,7 +67,6 @@ class Hp_Brand_Block_Image extends Mage_Core_Block_Template
             // ->addCategoryFilter($category)
             ->addAttributeToSelect('*');
 
-        // print_r($products);die;
         return $products;
     }
 
