@@ -9,28 +9,22 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Edit_Tab_Form extends Mage_Adminhtml_Bloc
 
         $fieldset = $form->addFieldset('vendor_form',array('legend'=>Mage::helper('vendor')->__('Vendor Information')));
 
-        $fieldset->addField('first_name', 'text', array(
-            'label' => Mage::helper('vendor')->__('First Name'),
+        $fieldset->addField('name', 'text', array(
+            'label' => Mage::helper('vendor')->__('Name'),
             'required' => true,
-            'name' => 'vendor[first_name]',
-        ));
-
-        $fieldset->addField('last_name','text', array(
-            'label' => Mage::helper('vendor')->__('Last Name'),
-            'required' => true,
-            'name' => 'vendor[last_name]'
-        ));
-
-        $fieldset->addField('mobile','text', array(
-            'label' => Mage::helper('vendor')->__('Mobile'),
-            'required' => true,
-            'name' => 'vendor[mobile]'
+            'name' => 'vendor[name]',
         ));
 
         $fieldset->addField('email', 'text', array(
             'label' => Mage::helper('vendor')->__('Email'),
             'required' => true,
             'name' => 'vendor[email]',
+        ));
+
+        $fieldset->addField('mobile','text', array(
+            'label' => Mage::helper('vendor')->__('Mobile'),
+            'required' => true,
+            'name' => 'vendor[mobile]'
         ));
 
         $fieldset->addField('gender', 'radios', array(
