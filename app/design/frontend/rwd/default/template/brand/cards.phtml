@@ -23,14 +23,20 @@
         margin-top: 10px;
     }
 
+    .image{
+        height: 75%;
+    }
+
 </style>
 <div style="display:flex;">
-        <?php $url = Mage::getBaseUrl('media'); ?>
+    <?php $url = Mage::getBaseUrl('media'); ?>
     <?php foreach ($this->getBrands() as $brand) : ?>
     <?php $path = $url . $brand->image; ?>
     <div class="card">
     <a href="<?php echo $this->getRewriteKey($brand); ?>">
-        <img src="<?php echo $path; ?>" height = "100px" width = "100px" alt="Brand 1">
+        <div class="image">
+            <img src="<?php echo $path; ?>" height = "100px" width = "100px" alt="Brand 1">
+        </div>
     </a>
         <h3><?php echo $brand->name; ?></h3>
         <!-- <p><?php echo $brand->description; ?></p> -->

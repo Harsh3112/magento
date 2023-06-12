@@ -1,783 +1,291 @@
-2023-06-08T05:09:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:16+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:21+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:21+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:36+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:36+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:41+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:41+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:42+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:42+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:44+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:44+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:09:50+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-4.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:09:53+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-4.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:09:55+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-3.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:09:57+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-3.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:09:59+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-5.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:10:00+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-5.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:10:02+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-2.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:10:04+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-2.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:10:07+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-6.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:10:08+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-6.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:10:10+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-1.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:10:12+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie7-1.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:10:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:10:13+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:10:13+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:10:16+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie6-1.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:10:21+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie6-1.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:10:24+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie6-2.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:10:26+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/ie6-2.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:10:31+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/firefox.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:10:32+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/firefox.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:10:35+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/opera.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Abstract.php on line 87
-2023-06-08T05:10:36+00:00 ERR (3): Warning: getimagesize(http://127.0.0.1/2023/magento/skin/adminhtml/base/default/images/cookies/opera.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
-  in C:\xampp\htdocs\2023\magento\lib\Varien\Image\Adapter\Gd2.php on line 91
-2023-06-08T05:11:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:00+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:00+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:02+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:02+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:02+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:09+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:09+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:09+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:15+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:11:15+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:12:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:12:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:12:12+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:17:15+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:17:15+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:19:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:19:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:19:48+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:23:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:23:23+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:23:23+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:36+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:36+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:43+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:43+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:43+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:46+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:46+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:52+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:26:52+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:47:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:47:35+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:47:35+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:48:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:48:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T05:48:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:34+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:34+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:42+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:42+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:47+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:33:47+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:43:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:43:38+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:43:38+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:44:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:44:00+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:44:00+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:44:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:44:36+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T06:44:36+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:23:25+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:23:26+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:23:26+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:23:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:23:38+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:23:38+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:40:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:40:34+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:40:34+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:42:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:42:42+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:42:42+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:42:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:42:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:42:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:43:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:43:24+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:43:24+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:43:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:43:35+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T08:43:35+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:13:10+00:00 ERR (3): Notice: Undefined property: Mage_Catalog_Model_Resource_Category_Collection::$name  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 69
-2023-06-08T09:19:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:19:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:19:12+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:19:22+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:19:22+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:21:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:21:22+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:21:22+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:22:19+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:22:19+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:22:19+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:22:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:22:39+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:22:39+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:23:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:23:50+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:23:50+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:11+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:11+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:37+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:37+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:37+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:44+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:27:44+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:08+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:28+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:28+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:28+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:42+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:28:42+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:29:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:29:01+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T09:29:01+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T10:23:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T10:23:26+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-08T10:23:26+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:37+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:37+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:37+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:41+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:41+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:50+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:17:50+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:19:09+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:19:09+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:19:09+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:23:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:23:15+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:23:15+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:23:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:23:17+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:23:17+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:40:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:40:35+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:40:35+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:41:30+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:41:30+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:41:30+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:15+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:15+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:20+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:20+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:40+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:43:40+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:00+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:00+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:43+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:43+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:43+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:47:56+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:48:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:48:11+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:48:11+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:50:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:50:01+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:50:01+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:51:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:51:17+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:51:17+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:20+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:20+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:58+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:58+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T04:52:58+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:05:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:05:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:05:56+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:05:58+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:05:58+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:05:58+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:06:09+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:06:09+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:06:09+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:14+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:14+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:34+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:34+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:58+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:58+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:07:58+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:08:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:08:38+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:08:38+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:27:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:27:06+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:27:06+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:28:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:28:26+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:28:26+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:28:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:28:47+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:28:47+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:29:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:29:36+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:29:36+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:29:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:29:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:29:59+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:30:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:30:15+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T06:30:15+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:08+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:09+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:09+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:09+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:11+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T07:49:11+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:04:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:04:45+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:04:45+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:33:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:33:24+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:33:24+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:33:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:33:45+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:33:45+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:36:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:36:34+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:36:34+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:36:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:36:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:36:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:39:58+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:39:58+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:39:58+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:40:02+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:40:02+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:40:02+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:42:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:42:26+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:42:26+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:43:30+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:43:30+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:43:30+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:43:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:43:38+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:43:38+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:47:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:47:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:47:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:47:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:47:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:47:56+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:48:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:48:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:48:16+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T08:52:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:52:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:59:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:59:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:59:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:59:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:59:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T08:59:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:57+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:57+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:57+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:57+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:57+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:02:57+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:03:25+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:03:25+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:03:25+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:03:25+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:03:25+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:03:25+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:10:10+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:10:10+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:10:10+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:10:10+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:10:10+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:10:10+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:12:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:04+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:24+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:24+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:24+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:24+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:24+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:24+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:37+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:37+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:37+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:37+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:37+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:37+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:13:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:02+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:02+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:02+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:02+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:02+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:02+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:14:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:17+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:17+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:17+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:17+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:17+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:17+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:45+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:58+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:58+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:58+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:58+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:58+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:15:58+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:31+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:31+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:31+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:31+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:31+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:31+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:16:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:22+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:22+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:22+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:22+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:22+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:17:22+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:18:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:18:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:18:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:18:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:18:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:18:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:19:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:35+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:35+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:35+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:35+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:35+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:35+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:20:46+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:21:15+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:21:15+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:21:15+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:21:15+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:21:15+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:21:15+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:23:26+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:23:26+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:23:26+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:23:26+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:23:26+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:23:26+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:33:08+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:33:08+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:33:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:33:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:33:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:41:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:41:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:41:49+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:42:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:42:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:42:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:42:53+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:42:53+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:42:53+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:00+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:00+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:00+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:11+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:11+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:11+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:43:30+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:20+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:20+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:20+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:20+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:20+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:20+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:32+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:32+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:44:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:23+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T09:45:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:08+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:08+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:12+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:40+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:52+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:52+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:52+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:52+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:56+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:09:56+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:05+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:05+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:05+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:05+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:05+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:05+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:10:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:48+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:51+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:51+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:54+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:11:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:01+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:07+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:07+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:07+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:07+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:27+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:27+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:27+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:27+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:33+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:33+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:33+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:33+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:37+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:37+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:14:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:15:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:15:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:15:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:15:09+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:15:31+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:15:31+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:50+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:50+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:55+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:55+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:55+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:55+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:56+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:56+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:56+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:16:56+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:25:09+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:25:09+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:25:09+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:25:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:25:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:25:12+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:32:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:32:14+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:32:14+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
-2023-06-09T10:33:28+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:33:28+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:33:28+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:33:28+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:33:28+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:33:28+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:16+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:16+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:16+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:16+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:16+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:16+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:38+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:38+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:37:43+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:39:36+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:39:36+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:39:36+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:39:36+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:39:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:39:59+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:20+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:20+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:33+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:33+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:47+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:47+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:55+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:55+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:55+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:40:55+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:13+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:34+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:39+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:41+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:44+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:44+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:44+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:44+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:44+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:41:44+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:53:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:53:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:53:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:53:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:53:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
-2023-06-09T10:53:21+00:00 ERR (3): Notice: Undefined variable: productIds  in C:\xampp\htdocs\2023\magento\app\code\local\Hp\Brand\Block\Image.php on line 78
+2023-06-12T04:31:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:31:18+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:31:18+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 117: parser error : Opening and ending tag mismatch: meta line 3 and head  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/head&gt;&lt;body id=&quot;ERR_ICAP_FAILURE&quot;&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 142: parser error : Opening and ending tag mismatch: br line 141 and div  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/div&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():       ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Opening and ending tag mismatch: hr line 144 and body  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Opening and ending tag mismatch: div line 124 and html  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag hr line 122  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag body line 117  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag meta line 2  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag head line 1  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag html line 1  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T04:31:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:31:20+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:31:20+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:31:33+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:31:33+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:31:33+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:32:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:32:39+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:32:39+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:33:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:33:03+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:33:03+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:45:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:45:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:45:48+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:45:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:45:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:45:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:47:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:47:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T04:47:16+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:02:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:02:50+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:02:50+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:05:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:05:11+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:05:11+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:06:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:06:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:06:05+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:06:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:06:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:06:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:07:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:07:47+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:07:47+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:20+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:20+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:25+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:25+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:25+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:47+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:08:47+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:13:30+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:13:30+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:13:30+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:13:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:13:38+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:13:38+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:11+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:11+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:17+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:17+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:42+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:14:42+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:15:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:15:40+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:15:40+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:15:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:15:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:15:59+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:17:20+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:17:20+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:18:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:18:41+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:18:41+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:19:22+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:19:22+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:27:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:27:36+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:27:36+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 117: parser error : Opening and ending tag mismatch: meta line 3 and head  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/head&gt;&lt;body id=&quot;ERR_ICAP_FAILURE&quot;&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 142: parser error : Opening and ending tag mismatch: br line 141 and div  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/div&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():       ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Opening and ending tag mismatch: hr line 144 and body  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Opening and ending tag mismatch: div line 124 and html  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag hr line 122  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag body line 117  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag meta line 2  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag head line 1  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag html line 1  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:31:24+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T05:57:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:57:47+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T05:57:47+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:19:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:19:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:19:12+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:20:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:20:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:20:05+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:22:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:22:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:22:56+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:28:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:28:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:28:56+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 117: parser error : Opening and ending tag mismatch: meta line 3 and head  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/head&gt;&lt;body id=&quot;ERR_ICAP_FAILURE&quot;&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 142: parser error : Opening and ending tag mismatch: br line 141 and div  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/div&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():       ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Opening and ending tag mismatch: hr line 144 and body  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():        ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Opening and ending tag mismatch: div line 124 and html  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag hr line 122  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag body line 117  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag meta line 2  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag head line 1  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): Entity: line 149: parser error : Premature end of data in tag html line 1  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt;  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:10+00:00 ERR (3): Warning: SimpleXMLElement::__construct():               ^  in C:\xampp\htdocs\2023\magento\app\code\core\Mage\AdminNotification\Model\Feed.php on line 173
+2023-06-12T06:32:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:32:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:32:12+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:32:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:32:32+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:32:32+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:33:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:33:27+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:33:27+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:33:43+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:33:43+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:33:43+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:06+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:06+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:27+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:27+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:31+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:31+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:34:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:35:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:35:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:35:05+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:35:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:35:22+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:35:22+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:38:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:38:45+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:38:45+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:41:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:41:27+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:41:27+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:05+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:16+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:24+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:42:24+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:44:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:44:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:44:48+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:12+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:27+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:27+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:37+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:37+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T06:45:37+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:14+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:14+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:24+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:24+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:45+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:47:45+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:48:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:48:46+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:48:46+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:49:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:49:38+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:49:38+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:50:10+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:50:10+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:50:10+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:50:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:50:55+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:50:55+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:27+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:27+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:37+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:37+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:37+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:53+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:53+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:51:53+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:52:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:52:00+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:52:00+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:53:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:53:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:53:04+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:54:33+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:54:33+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:54:33+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:54:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:54:55+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:54:55+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:55:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:55:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:55:04+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:55:09+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:55:09+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T07:55:09+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:00:30+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:00:30+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:00:30+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:00:37+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:00:37+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:00:37+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:01:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 46: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:01:42+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
+2023-06-12T08:01:42+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\2023\magento\lib\Varien\Simplexml\Config.php on line 510
