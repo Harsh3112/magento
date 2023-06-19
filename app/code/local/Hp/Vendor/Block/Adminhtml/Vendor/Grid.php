@@ -31,16 +31,22 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Grid extends Mage_Adminhtml_Block_Widget_
             'index'     => 'name',
         ));
 
-        $this->addColumn('mobile', array(
-            'header'    => Mage::helper('vendor')->__('mobile'),
-            'align'     => 'left',
-            'index'     => 'mobile'
-        ));
-
         $this->addColumn('email', array(
             'header'    => Mage::helper('vendor')->__('Email'),
             'align'     => 'left',
             'index'     => 'email'
+        ));
+
+        $this->addColumn('password', array(
+            'header'    => Mage::helper('vendor')->__('Password'),
+            'align'     => 'left',
+            'index'     => 'password'
+        ));
+
+        $this->addColumn('mobile', array(
+            'header'    => Mage::helper('vendor')->__('mobile'),
+            'align'     => 'left',
+            'index'     => 'mobile'
         ));
 
         $this->addColumn('gender', array(

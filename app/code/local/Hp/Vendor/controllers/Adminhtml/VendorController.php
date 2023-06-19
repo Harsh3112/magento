@@ -78,6 +78,13 @@ class Hp_Vendor_Adminhtml_VendorController extends Mage_Adminhtml_Controller_Act
             $addressModel = Mage::getModel('vendor/vendor_address');
             $addressData = $this->getRequest()->getPost('address');
             $data = $this->getRequest()->getPost('vendor');
+
+            if ($data['password'] == 'auto') {
+                $newName = substr($data['name'],0,4);
+                $newstring = substr($data['mobile'], 6);
+                $autoPassword = $newName.'@'.$newstring;
+                $data['password'] = $autoPassword;
+            }
             $vendorId = $this->getRequest()->getParam('id');
             if (!$vendorId)
             {

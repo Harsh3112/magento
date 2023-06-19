@@ -10,8 +10,8 @@
     </cms_index_index>
     <brand_view_index>
         <default>
-            <remove name="right"/>
-            <remove name="header"></remove>
+            <!-- <remove name="right"/> -->
+            <!-- <remove name="header"></remove> -->
             <remove name="footer"></remove>
         </default>
         

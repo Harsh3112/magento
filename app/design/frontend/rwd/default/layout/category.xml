@@ -2,7 +2,7 @@
 <layout version="1.0.0">
     <cms_index_index>
         <remove name="right"></remove>
-        <remove name="header"></remove>
+        <!-- <remove name="header"></remove> -->
         <remove name="footer"></remove>
         <reference name="content">
             <block type="category/category" name="category.category" template="category/category.phtml" after="brand.image"/>

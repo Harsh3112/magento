@@ -1,0 +1,62 @@
+<form action="<?php echo $this->getBaseUrl().'vendor'.DS.'account'.DS.'createpost' ?>" method="post" id="form-validate">
+    <?php echo $this->getBlockHtml('formkey') ?>
+    <div class="fieldset">
+        <h2 class="legend"><?php echo $this->__('Create New Vendor Account') ?></h2>
+        <ul class="form-list">
+            <li class="fields">
+                <div class="field">
+                    <label for="firstname" class="required"><em>*</em><?php echo $this->__('First Name') ?></label>
+                    <div class="input-box">
+                        <input type="text" id="firstname" name="firstname" value="<?php //echo $this->escapeHtml($this->getFormData()->getFirstname()) ?>" title="<?php echo $this->__('First Name') ?>" class="input-text required-entry" />
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="middlename"><?php echo $this->__('Middle Name') ?></label>
+                    <div class="input-box">
+                        <input type="text" id="middlename" name="middlename" value="<?php //echo $this->escapeHtml($this->getFormData()->getMiddlename()) ?>" title="<?php echo $this->__('Middle Name') ?>" class="input-text" />
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="lastname" class="required"><em>*</em><?php echo $this->__('Last Name') ?></label>
+                    <div class="input-box">
+                        <input type="text" id="lastname" name="lastname" value="<?php //echo $this->escapeHtml($this->getFormData()->getLastname()) ?>" title="<?php echo $this->__('Last Name') ?>" class="input-text required-entry" />
+                    </div>
+                </div>
+            </li>
+            <li>
+                <label for="email_address" class="required"><em>*</em><?php echo $this->__('Email Address') ?></label>
+                <div class="input-box">
+                    <input type="text" id="email_address" name="email" value="<?php //echo $this->escapeHtml($this->getFormData()->getEmail()) ?>" title="<?php echo $this->__('Email Address') ?>" class="input-text required-entry validate-email" />
+                </div>
+            </li>
+            <li>
+                <label for="mobile" class="required"><em>*</em><?php echo $this->__('Mobile') ?></label>
+                <div class="input-box">
+                    <input type="text" id="mobile" name="mobile" value="<?php //echo $this->escapeHtml($this->getFormData()->getEmail()) ?>" title="<?php echo $this->__('Mobile') ?>" class="input-text required-entry validate-mobile" />
+                </div>
+            </li>
+            <li>
+                <label for="password" class="required"><em>*</em><?php echo $this->__('Password') ?></label>
+                <div class="input-box">
+                    <input type="password" id="password" name="password" title="<?php echo $this->__('Password') ?>" class="input-text required-entry" />
+                </div>
+            </li>
+            <li>
+                <label for="confirmation" class="required"><em>*</em><?php echo $this->__('Confirm Password') ?></label>
+                <div class="input-box">
+                    <input type="password" id="confirmation" name="confirmation" title="<?php echo $this->__('Confirm Password') ?>" class="input-text required-entry" />
+                </div>
+            </li>
+            <!-- Add more fields as needed -->
+            <li>
+                <label for="newsletter"><?php echo $this->__('Signup for Newsletter') ?></label>
+                <div class="input-box">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="1" title="<?php echo $this->__('Signup for Newsletter') ?>" class="checkbox" />
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="buttons-set">
+        <button type="submit" class="button" title="<?php echo $this->__('Register') ?>"><span><span><?php echo $this->__('Register') ?></span></span></button>
+    </div>
+</form>

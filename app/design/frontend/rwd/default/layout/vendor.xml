@@ -1,14 +1,51 @@
 <?xml version="1.0" ?>
 <layout version="0.1.0">
-     <admin_vendor_index>
-          <reference name="root">
-               <action method='setTemplate'>
-                    <!-- <template>page/1column.phtml</template> -->
-               </action>
-          </reference>
+     
+    <default>
+        <!-- Vr_Vendor -->
+        <reference name="top.links">
+            <action method="addLink" translate="label title" module="vendor"><label>Vendor</label><url helper="vendor/getLoginUrl"/><title>Vendor</title><prepare/><urlParams/><position>10</position></action>
+            <action method="addLink" translate="label title before_text" module="vendor"><label>Vendor Register</label><url helper="vendor/getRegisterUrl" /><title>Vendor Register</title><prepare/><urlParams/><position>100</position><li/><a/></action>
+        </reference>
+        <reference name="footer_links2">
+            <action method="addLink" translate="label title" module="catalog"><label>Vendor</label><url helper="vendor/getAccountUrl" /><title>Vendor</title></action>
+        </reference>
+    </default>
 
-           <reference name="content">
-                <block type="vendor/grid" name="vendorgrid" template="vendor/grid.phtml" />
-           </reference>
-      </admin_vendor_index>
+    <vendor_logged_in>
+        <reference name="top.links">
+            <action method="removeLinkByUrl"><url helper="vendor/getRegisterUrl" /></action>
+            <action method="addLink" translate="label title" module="vendor"><label>Log Out</label><url helper="vendor/getLogoutUrl"/><title>Log Out</title><prepare/><urlParams/><position>100</position></action>
+        </reference>
+    </vendor_logged_in>
+
+    <vendor_account_create translate="label">
+        <label>Vendor Account Registration Form</label>
+        <remove name="right"/>
+        <remove name="left"/>
+
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="vendor/form_register" name="vendor_form_register" template="vendor/form/register.phtml">
+                <!-- <block type="page/html_wrapper" name="customer.form.register.fields.before" as="form_fields_before" translate="label"> -->
+                    <!-- <label>Form Fields Before</label> -->
+                <!-- </block> -->
+            </block>
+        </reference>
+    </vendor_account_create>
+
+    <vendor_account_login translate="label">
+        <remove name="right"/>
+        <remove name="left"/>
+
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="vendor/form_login" name="vendor_form_login" template="vendor/form/login.phtml">
+            </block>
+        </reference>
+    </vendor_account_login>
 </layout>

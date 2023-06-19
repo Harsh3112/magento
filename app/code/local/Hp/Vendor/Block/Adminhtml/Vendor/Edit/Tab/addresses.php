@@ -71,6 +71,7 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Edit_Tab_Addresses extends Mage_Adminhtml
             'name' => 'address[zipcode]'
         ));
 
+
         if ( Mage::getSingleton('adminhtml/session')->getVendorData() )
         {
             $form->setValues(Mage::getSingleton('adminhtml/session')->getVendorData());
