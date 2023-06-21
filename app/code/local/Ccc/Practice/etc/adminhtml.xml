@@ -9,6 +9,62 @@
                     <action>practice/adminhtml_practice/index</action>
                     <sort_order>10</sort_order>
                 </managepractice>
+                <query translate="title" module="practice">
+                    <title>Manage Query</title>
+                    <sort_order>10</sort_order>
+                    <children>
+                        <one translate='title' module='practice'>
+                            <title>One</title>
+                            <action>practice/adminhtml_query/first</action>
+                            <sort_order>10</sort_order>
+                        </one>
+                        <two translate='title' module='practice'>
+                            <title>Two</title>
+                            <action>practice/adminhtml_query/second</action>
+                            <sort_order>10</sort_order>
+                        </two>
+                        <three translate='title' module='practice'>
+                            <title>Three</title>
+                            <action>practice/adminhtml_query/three</action>
+                            <sort_order>10</sort_order>
+                        </three>
+                        <four translate='title' module='practice'>
+                            <title>Four</title>
+                            <action>practice/adminhtml_query/four</action>
+                            <sort_order>10</sort_order>
+                        </four>
+                        <five translate='title' module='practice'>
+                            <title>Five</title>
+                            <action>practice/adminhtml_query/five</action>
+                            <sort_order>10</sort_order>
+                        </five>
+                        <six translate='title' module='practice'>
+                            <title>Six</title>
+                            <action>practice/adminhtml_query/six</action>
+                            <sort_order>10</sort_order>
+                        </six>
+                        <seven translate='title' module='practice'>
+                            <title>Seven</title>
+                            <action>practice/adminhtml_query/seven</action>
+                            <sort_order>10</sort_order>
+                        </seven>
+                        <eight translate='title' module='practice'>
+                            <title>Eight</title>
+                            <action>practice/adminhtml_query/eight</action>
+                            <sort_order>10</sort_order>
+                        </eight>
+                        <nine translate='title' module='practice'>
+                            <title>Nine</title>
+                            <action>practice/adminhtml_query/nine</action>
+                            <sort_order>10</sort_order>
+                        </nine>
+                        <ten translate='title' module='practice'>
+                            <title>Ten</title>
+                            <action>practice/adminhtml_query/ten</action>
+                            <sort_order>10</sort_order>
+                        </ten>
+                    </children>
+                </query>
             </children>
         </practice>
        </menu>
