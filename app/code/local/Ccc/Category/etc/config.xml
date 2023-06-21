@@ -7,11 +7,20 @@
     <frontend>
         <layout>
             <updates>
-                <Category module="Ccc_Category">
-                    <file>Ccc_Category.xml</file>
-                </Category>
+                <category module="Ccc_Category">
+                    <file>category.xml</file>
+                </category>
             </updates>
         </layout>
+        <routers>
+            <category>
+                <use>standard</use>
+                <args>
+                    <module>Ccc_Category</module>
+                    <frontName>category</frontName>
+                </args>
+            </category>
+        </routers>
     </frontend>
     <global>
 
@@ -30,10 +39,36 @@
                 </entities>
             </category_resource>
         </models>
+        <resources>
+            <category_setup>
+                <setup>
+                    <module>Ccc_Category</module>
+                    <class>Mage_Core_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </category_setup>
+            <category_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </category_write>
+            <category_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </category_read>
+        </resources>
         <blocks>
             <category>
                 <class>Ccc_Category_Block</class>
             </category>
+            <adminhtml>
+                <rewrite>
+                    <catalog_category_tree>Ccc_Category_Block_Adminhtml_Catalog_Category_Tree</catalog_category_tree>
+                </rewrite>
+            </adminhtml>
         </blocks>
         <helpers>
            <category>
@@ -42,15 +77,6 @@
         </helpers>
     </global>
     <admin>
-        <!-- <routers>
-            <adminhtml>
-                <args>
-                    <modules>
-                        <Ccc_Vendor>Ccc_Vendor_Adminhtml</Ccc_Vendor>
-                    </modules>
-                </args>
-            </adminhtml>
-        </routers> -->
         <routers>
             <Category>
                 <use>admin</use>

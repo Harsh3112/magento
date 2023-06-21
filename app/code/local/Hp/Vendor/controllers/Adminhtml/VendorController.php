@@ -78,6 +78,13 @@ class Hp_Vendor_Adminhtml_VendorController extends Mage_Adminhtml_Controller_Act
             $addressModel = Mage::getModel('vendor/vendor_address');
             $addressData = $this->getRequest()->getPost('address');
             $data = $this->getRequest()->getPost('vendor');
+
+            if ($data['password'] == 'auto') {
+                $newName = substr($data['name'],0,4);
+                $newstring = substr($data['mobile'], 6);
+                $autoPassword = $newName.'@'.$newstring;
+                $data['password'] = $autoPassword;
+            }
             $vendorId = $this->getRequest()->getParam('id');
             if (!$vendorId)
             {
@@ -85,9 +92,9 @@ class Hp_Vendor_Adminhtml_VendorController extends Mage_Adminhtml_Controller_Act
             }
 
             $model->setData($data)->setId($vendorId);
-            if ($model->getCreatedTime == NULL || $model->getUpdateTime() == NULL)
+            if (!$vendorId)
             {
-                $model->setCreatedTime(now())->setUpdateTime(now());
+                $model->setCreatedTime(now());
             } 
             else {
                 $model->setUpdateTime(now());
@@ -99,6 +106,13 @@ class Hp_Vendor_Adminhtml_VendorController extends Mage_Adminhtml_Controller_Act
                 }
 
                 $addressModel->setData(array_merge($addressModel->getData(),$addressData));
+                if (!$vendorId)
+                {
+                    $addressModel->setCreatedTime(now());
+                } 
+                else {
+                    $addressModel->setUpdateTime(now());
+                }
                 $addressModel->vendor_id = $model->vendor_id;
                 $addressModel->save();
             }
@@ -140,4 +154,81 @@ class Hp_Vendor_Adminhtml_VendorController extends Mage_Adminhtml_Controller_Act
         }
         $this->_redirect('*/*/');
     }
+
+    public function massDeleteAction()
+    {
+        $vendorIds = $this->getRequest()->getParam('vendor');
+        if(!is_array($vendorIds)) {
+             Mage::getSingleton('adminhtml/session')->addError(Mage::helper('adminhtml')->__('Please select vendors.'));
+        } else {
+            try {
+                $vendor = Mage::getModel('vendor/vendor');
+                foreach ($vendorIds as $vendorId) {
+                    $vendor->reset()
+                        ->load($vendorId)
+                        ->delete();
+                }
+                Mage::getSingleton('adminhtml/session')->addSuccess(
+                    Mage::helper('adminhtml')->__('Total of %d record(s) were deleted.', count($salesmenIds))
+                );
+            } catch (Exception $e) {
+                Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+            }
+        }
+
+        $this->_redirect('*/*/index');
+    }
+
+    public function massStatusAction()
+    {
+        $vendorsId = $this->getRequest()->getParam('vendor');
+        if(!is_array($vendorsId)) {
+             Mage::getSingleton('adminhtml/session')->addError(Mage::helper('adminhtml')->__('Please select vendor(s).'));
+        } else {
+            try {
+                $vendor = Mage::getModel('vendor/vendor');
+                foreach ($vendorsId as $vendorId) {
+                    $vendor
+                        ->load($vendorId)
+                        ->setStatus($this->getRequest()->getPost('status'))
+                        ->save();
+                }
+                // print_r($vendor);die;
+                Mage::getSingleton('adminhtml/session')->addSuccess(
+                    Mage::helper('adminhtml')->__('Total of %d record(s) were Status Updated.', count($vendorsId))
+                );
+            } catch (Exception $e) {
+                Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+            }
+        }
+        $this->_redirect('*/*/index');
+
+    }
+
+    public function updateStateOptionsAction()
+    {
+
+        $countryId = $this->getRequest()->getParam('country_id');
+        // Mage::log($countryId,null,'country.log');
+        $options = array();
+
+        // print_r($countryId);die;
+        // Retrieve the state options for the selected country
+        $states = Mage::getModel('directory/region')->getResourceCollection()
+            ->addCountryFilter($countryId)
+            ->load();
+        
+        // Build the options array
+        foreach ($states as $state) {
+            $options[] = array(
+                'value' => $state->getId(),
+                'label' => $state->getName()
+            );
+        }
+        
+        // Return the options as JSON response
+        $this->getResponse()->setHeader('Content-type', 'application/json');
+        $this->getResponse()->setBody(json_encode($options));
+    }
+
 }

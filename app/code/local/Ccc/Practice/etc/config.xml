@@ -51,7 +51,7 @@
                   <class>Ccc_Practice_Helper</class>
             </practice>
         </helpers>
-        <events>
+        <!-- <events>
             <cms_page_prepare_save>
                 <observers>
                     <Ccc_Practice_Model_Observer>
@@ -61,7 +61,7 @@
                     </Ccc_Practice_Model_Observer>
                 </observers>
             </cms_page_prepare_save>
-        </events>
+        </events> -->
     </global>
     <admin>
         <routers>

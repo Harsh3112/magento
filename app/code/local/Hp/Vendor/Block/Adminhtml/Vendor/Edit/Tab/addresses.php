@@ -21,16 +21,48 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Edit_Tab_Addresses extends Mage_Adminhtml
             'name' => 'address[city]'
         ));
 
-        $fieldset->addField('state', 'text', array(
-            'label' => Mage::helper('vendor')->__('State'),
-            'required' => false,
-            'name' => 'address[state]',
+        $fieldset->addField('country', 'select', array(
+            'name'      => 'address[country]',
+            'label'     => Mage::helper('vendor')->__('Country'),
+            'required'  => true,
+            'values'    => Mage::getModel('directory/country')->getResourceCollection()
+                            ->loadByStore()
+                            ->toOptionArray(),
+            'onchange'  => 'updateStateOptions(this.value)',
         ));
 
-        $fieldset->addField('country','text', array(
-            'label' => Mage::helper('vendor')->__('Country'),
-            'required' => false,
-            'name' => 'address[country]'
+        $fieldset->addField('state', 'select', array(
+            'name'      => 'address[state]',
+            'label'     => Mage::helper('vendor')->__('State'),
+            'required'  => true,
+            'values'    => Mage::getModel('directory/region')->getResourceCollection()
+                            ->addCountryFilter($countryId)
+                            ->load()
+                            ->toOptionArray()
+        ));
+
+        
+        $script = '
+            <script>
+            function updateStateOptions(countryId) {
+                var url = "' . $this->getUrl('*/*/updateStateOptions') . '"; // Replace with your controller action URL
+                new Ajax.Request(url, {
+                    method: "post",
+                    parameters: { country_id: countryId },
+                    onSuccess: function(transport) {
+                        var response = transport.responseText.evalJSON();
+                        var stateField = $("state");
+                        stateField.update("");
+                        response.each(function(option) {
+                            stateField.insert(new Element("option", { value: option.value }).update(option.label));
+                        });
+                    }
+                });
+            }
+            </script>';
+        $fieldset->addField('ajax_script', 'note', array(
+            'text'     => $script,
+            'after_element_html' => '',
         ));
 
         $fieldset->addField('zipcode','text', array(
@@ -38,6 +70,7 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Edit_Tab_Addresses extends Mage_Adminhtml
             'required' => false,
             'name' => 'address[zipcode]'
         ));
+
 
         if ( Mage::getSingleton('adminhtml/session')->getVendorData() )
         {

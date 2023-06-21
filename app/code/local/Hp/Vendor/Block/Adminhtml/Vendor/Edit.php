@@ -39,7 +39,8 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Edit extends Mage_Adminhtml_Block_Widget_
     public function getHeaderText()
     {
         if (Mage::registry('vendor_edit')->getId()) {
-            return Mage::helper('vendor')->__("Edit Vendor '%s'", $this->escapeHtml(Mage::registry('vendor_edit')->getTitle()));
+            return Mage::helper('vendor')->__("Edit Vendor '%s'", $this->escapeHtml(Mage::registry('vendor_edit')->getName()));
+            // return $this->escapeHtml(Mage::registry('vendor_edit')->getName());
         }
         else {
             return Mage::helper('vendor')->__('New Vendor');

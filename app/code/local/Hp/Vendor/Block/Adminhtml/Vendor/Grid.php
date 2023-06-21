@@ -25,28 +25,28 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Grid extends Mage_Adminhtml_Block_Widget_
     {
         $baseUrl = $this->getUrl();
 
-        $this->addColumn('first_name', array(
-            'header'    => Mage::helper('vendor')->__('First Name'),
+        $this->addColumn('name', array(
+            'header'    => Mage::helper('vendor')->__('Name'),
             'align'     => 'left',
-            'index'     => 'first_name',
-        ));
-
-        $this->addColumn('last_name', array(
-            'header'    => Mage::helper('vendor')->__('Last Name'),
-            'align'     => 'left',
-            'index'     => 'last_name'
-        ));
-
-        $this->addColumn('mobile', array(
-            'header'    => Mage::helper('vendor')->__('mobile'),
-            'align'     => 'left',
-            'index'     => 'mobile'
+            'index'     => 'name',
         ));
 
         $this->addColumn('email', array(
             'header'    => Mage::helper('vendor')->__('Email'),
             'align'     => 'left',
             'index'     => 'email'
+        ));
+
+        $this->addColumn('password', array(
+            'header'    => Mage::helper('vendor')->__('Password'),
+            'align'     => 'left',
+            'index'     => 'password'
+        ));
+
+        $this->addColumn('mobile', array(
+            'header'    => Mage::helper('vendor')->__('mobile'),
+            'align'     => 'left',
+            'index'     => 'mobile'
         ));
 
         $this->addColumn('gender', array(
@@ -68,15 +68,48 @@ class Hp_Vendor_Block_Adminhtml_Vendor_Grid extends Mage_Adminhtml_Block_Widget_
             'header'    => Mage::helper('vendor')->__('Created At'),
             'align'     => 'left',
             'index'     => 'created_time',
+            'type'      => 'datetime',
         ));
 
         $this->addColumn('update_time', array(
             'header'    => Mage::helper('vendor')->__('Update Time'),
             'align'     => 'left',
             'index'     => 'update_time',
+            'type'      => 'datetime',
         ));
 
         return parent::_prepareColumns();
+    }
+
+    protected function _prepareMassaction()
+    {
+        $this->setMassactionIdField('vendor_id');
+        $this->getMassactionBlock()->setFormFieldName('vendor');
+
+        $this->getMassactionBlock()->addItem('delete', array(
+             'label'    => Mage::helper('vendor')->__('Delete'),
+             'url'      => $this->getUrl('*/*/massDelete'),
+             'confirm'  => Mage::helper('vendor')->__('Are you sure?')
+        ));
+
+        $statuses = [1=>'Active',2=>'Inactive'];
+
+        $this->getMassactionBlock()->addItem('status', array(
+             'label'    => Mage::helper('vendor')->__('Status'),
+             'url'      => $this->getUrl('*/*/massStatus'),
+             // 'confirm'  => Mage::helper('vendor')->__('Are you sure?'),
+             'additional' => array(
+                    'visibility' => array(
+                         'name' => 'status',
+                         'type' => 'select',
+                         'class' => 'required-entry',
+                         'label' => Mage::helper('catalog')->__('Status'),
+                         'values' => $statuses
+                     )
+             )
+        ));
+
+        return $this;
     }
 
     

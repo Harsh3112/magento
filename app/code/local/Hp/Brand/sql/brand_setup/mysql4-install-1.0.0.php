@@ -21,6 +21,7 @@ ALTER TABLE {$this->getTable('brand')}
 
 ALTER TABLE {$this->getTable('brand')}
   MODIFY `brand_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=0;
-    ");
+  
+");
 
 $installer->endSetup();

@@ -34,21 +34,21 @@
             <product>
                 <class>Ccc_Product_Block</class>
             </product>
-            <product>
+            <!-- <product>
                 <rewrite>
                     <adminhtml_product>Ccc_Product_Block_Adminhtml_New</adminhtml_product>
                 </rewrite>
-            </product>
+            </product> -->
         </blocks>
         <helpers>
             <product>
                 <class>Ccc_product_Helper</class>
             </product>
-            <product>
+            <!-- <product>
                 <rewrite>
                     <data>Ccc_Product_Helper_Product_Data</data>
                 </rewrite>
-            </product>
+            </product> -->
         </helpers>
         <events>
             <cms_page_prepare_save>
@@ -67,10 +67,10 @@
             <Product>
                 <use>admin</use>
                 <args>
-                    <modules>
+                    <!-- <modules>
                         <Ccc_Product before="Ccc_Product">Ccc_Salesman</Ccc_Product>
-                    </modules>
-                    <!-- <module>Ccc_Product</module> -->
+                    </modules> -->
+                    <module>Ccc_Product</module>
                     <frontName>product</frontName>
                 </args>
             </Product>

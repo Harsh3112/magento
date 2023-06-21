@@ -1,0 +1,46 @@
+
+
+<!-- content_slider_master -->
+
+<link rel="stylesheet" href="http://127.0.0.1/2023/magento/skin/adminhtml/default/default/css/magestore/bannerslider/flexslider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://127.0.0.1/2023/magento/js/magestore/bannerslider/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/2023/magento/js/magestore/bannerslider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/2023/magento/js/magestore/bannerslider/slider1/jquery.slider.min.js"></script>
+
+
+        <script type="text/javascript">
+            window.resizeTo(900, 500);
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    animation: "slide"
+                });
+            });
+        </script>
+        <div style="width: 500; margin: auto">    
+            <div class="flexslider" style="margin:auto">
+                <ul class="slides">
+                        <?php
+                        $url = Mage::getBaseUrl('media');
+                        foreach ($this->getSliderData() as $image) {
+                            $path = $url . $image->image;
+                          echo '<li><img src="'.$path.'" height = "300px" width = "500px"></li>';
+                        }
+                        ?>
+                </ul>
+            </div>
+        </div>   
+        
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+
+        autoplay: true,
+        autoplaySpeed: 1000,
+
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+    });
+  </script>
